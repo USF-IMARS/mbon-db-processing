@@ -1,0 +1,77 @@
+<graph id="map_FGB_SST">
+<version>1.0</version>
+<node id="mosaicNode">
+<operator>Mosaic</operator>
+<sources>
+<sourceProducts>${sourceProducts}</sourceProducts>
+</sources>
+<parameters>
+<variables>
+<variable>
+<name>sst4</name>
+<expression>sst4</expression>
+</variable>
+<variable>
+<name>qual_sst4</name>
+<expression>qual_sst4</expression>
+</variable>
+</variables>
+<conditions>
+<condition>
+<name>low_qual</name>
+<expression>qual_sst4 &lt; 2</expression>
+<output>false</output>
+</condition>
+</conditions>
+<combine>OR</combine>
+<crs>
+PROJCS["Equidistant_Cylindrical / World Geodetic System 1984", 
+GEOGCS["World Geodetic System 1984", 
+DATUM["World Geodetic System 1984", 
+SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+AUTHORITY["EPSG","6326"]], 
+PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+UNIT["degree", 0.017453292519943295], 
+AXIS["Geodetic longitude", EAST], 
+AXIS["Geodetic latitude", NORTH]], 
+PROJECTION["Equidistant_Cylindrical"], 
+PARAMETER["central_meridian", 0.0], 
+PARAMETER["latitude_of_origin", 0.0], 
+PARAMETER["standard_parallel_1", 0.0], 
+PARAMETER["false_easting", 0.0], 
+PARAMETER["false_northing", 0.0], 
+UNIT["m", 1.0], 
+AXIS["Easting", EAST],
+AXIS["Northing", NORTH]] 
+</crs>
+<orthorectify>false</orthorectify>
+<elevationModelName>GETASSE30</elevationModelName>
+<resampling>Nearest</resampling>
+<westBound>-98.0</westBound>
+<northBound>31.0</northBound>
+<eastBound>-78.5</eastBound>
+<southBound>18.0</southBound>
+<pixelSizeX>1011.7</pixelSizeX>
+<pixelSizeY>1011.7</pixelSizeY>
+</parameters>
+</node>
+<node id="selectBandsNode">
+    <operator>BandMaths</operator>
+    	<sources>
+           <sourceProducts>MosaicNode</sourceProducts>
+       </sources>
+       <parameters>
+           <targetBands>
+                <targetBand>
+                   <name>sst4</name>
+                   <expression>sst4</expression>
+                   <description>Sea-surface temperature (4um-nighttime)</description>
+                   <type>float32</type>
+                   <validExpression>(sst4 > 0 and sst4 &lt; 100)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <unit>Deg C</unit>                  
+                </targetBand> 
+           </targetBands>
+       </parameters>
+   </node>
+</graph>

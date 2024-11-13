@@ -1,0 +1,50 @@
+<graph id="S2WQ_GraphId">
+    <version>1.0</version>
+    <node id="Resample_Node">
+      <operator>S2Resampling</operator>
+      <sources>
+        <sourceProduct>${sourceProduct}</sourceProduct>
+      </sources>
+      <parameters>
+        <resolution>20</resolution>
+        <upsampling>Bilinear</upsampling>
+      </parameters>
+    </node>
+    <node id="C2RCC_Node">
+    <operator>c2rcc.msi</operator>
+    	<sources>
+           <sourceProduct>Resample_Node</sourceProduct>
+        </sources>
+        <parameters>
+            <validPixelExpression>B8 > 0 and B8 &lt; 0.1</validPixelExpression>
+            <salinity>35.0</salinity>
+            <temperature>25.0</temperature>
+            <ozone>330.0</ozone>
+            <press>1000.0</press>
+            <elevation>0.0</elevation>
+            <TSMfac>1.06</TSMfac>
+            <TSMexp>0.942</TSMexp>
+            <CHLexp>1.04</CHLexp>
+            <CHLfac>21.0</CHLfac>
+            <thresholdRtosaOOS>0.05</thresholdRtosaOOS>
+            <thresholdAcReflecOos>0.1</thresholdAcReflecOos>
+            <thresholdCloudTDown865>0.955</thresholdCloudTDown865>
+            <netSet>C2RCC-Nets</netSet>
+            <outputAsRrs>false</outputAsRrs>
+            <deriveRwFromPathAndTransmittance>false</deriveRwFromPathAndTransmittance>
+            <useEcmwfAuxData>false</useEcmwfAuxData>
+            <outputRtoa>false</outputRtoa>
+            <outputRtosaGc>false</outputRtosaGc>
+            <outputRtosaGcAann>false</outputRtosaGcAann>
+            <outputRpath>false</outputRpath>
+            <outputTdown>false</outputTdown>
+            <outputTup>false</outputTup>
+            <outputAcReflectance>false</outputAcReflectance>
+            <outputRhown>true</outputRhown>
+            <outputOos>false</outputOos>
+            <outputKd>false</outputKd>
+            <outputUncertainties>false</outputUncertainties>
+        </parameters>
+    </node>
+</graph>
+

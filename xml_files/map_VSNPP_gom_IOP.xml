@@ -1,0 +1,112 @@
+<graph id="mosaic_1km_Keys_IOP">
+<version>1.0</version>
+<node id="mosaicNode">
+<operator>Mosaic</operator>
+<sources>
+<sourceProducts>${sourceProducts}</sourceProducts>
+</sources>
+<parameters>
+<variables>
+<variable>
+<name>adg_443</name>
+<expression>adg_443</expression>
+</variable>
+<variable>
+<name>aph_443</name>
+<expression>aph_443</expression>
+</variable>
+<variable>
+<name>l2_flags</name>
+<expression>l2_flags</expression>
+</variable>
+<variable>
+<name>STRAYLIGHT_MASK</name>
+<expression>l2_flags.STRAYLIGHT ? 1 : 0</expression>
+</variable>
+</variables>
+<conditions>
+<condition>
+<name>not_LAND</name>
+<expression>NOT l2_flags.LAND</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_CLDICE</name>
+<expression>NOT l2_flags.CLDICE</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_HIGLINT</name>
+<expression>NOT l2_flags.HIGLINT</expression>
+<output>false</output>
+</condition>
+</conditions>
+<combine>AND</combine>
+<crs>
+PROJCS["Equidistant_Cylindrical / World Geodetic System 1984", 
+GEOGCS["World Geodetic System 1984", 
+DATUM["World Geodetic System 1984", 
+SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+AUTHORITY["EPSG","6326"]], 
+PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+UNIT["degree", 0.017453292519943295], 
+AXIS["Geodetic longitude", EAST], 
+AXIS["Geodetic latitude", NORTH]], 
+PROJECTION["Equidistant_Cylindrical"], 
+PARAMETER["central_meridian", 0.0], 
+PARAMETER["latitude_of_origin", 0.0], 
+PARAMETER["standard_parallel_1", 0.0], 
+PARAMETER["false_easting", 0.0], 
+PARAMETER["false_northing", 0.0], 
+UNIT["m", 1.0], 
+AXIS["Easting", EAST],
+AXIS["Northing", NORTH]] 
+</crs>
+<orthorectify>false</orthorectify>
+<elevationModelName>GETASSE30</elevationModelName>
+<resampling>Nearest</resampling>
+<westBound>-98.0</westBound>
+<northBound>31.0</northBound>
+<eastBound>-78.5</eastBound>
+<southBound>18.0</southBound>
+<pixelSizeX>1011.7</pixelSizeX>
+<pixelSizeY>1011.7</pixelSizeY>
+</parameters>
+</node>
+<node id="selectBandsNode">
+    <operator>BandMaths</operator>
+    	<sources>
+           <sourceProducts>mosaicNode</sourceProducts>
+        </sources>
+       <parameters>
+           <targetBands>
+                <targetBand>
+                   <name>adg_443</name>
+                   <expression>adg_443</expression>
+                   <description>CDOM and detritus absorption at 443nm</description>
+                   <type>float32</type>
+                   <validExpression>(adg_443 > -0.5 and adg_443 &lt; 5 and adg_443 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>443.0</spectralWavelength>
+                   <unit>m^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>aph_443</name>
+                   <expression>aph_443</expression>
+                   <description>phytoplankton absorption at 443nm</description>
+                   <type>float32</type>
+                   <validExpression>(aph_443 > -0.5 and aph_443 &lt; 5 and aph_443 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>443.0</spectralWavelength>
+                   <unit>m^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>STRAYLIGHT_MASK</name>
+                   <expression>STRAYLIGHT_MASK</expression>
+                   <description>Straylight affected pixels</description>
+                   <type>float32</type>             
+                </targetBand>
+           </targetBands>
+       </parameters>
+   </node>
+</graph>

@@ -1,0 +1,2826 @@
+<dataset type="EDDGridFromNcFiles" datasetID="pace_oc_aop_1d_sfl" active="true">
+	<reloadEveryNMinutes>10080</reloadEveryNMinutes>
+	<updateEveryNMillis>10000</updateEveryNMillis>
+	<fileDir>/mnt/sdb/pace_oc_aop_1d_sfl</fileDir>
+	<fileNameRegex>.*\.nc</fileNameRegex>
+	<recursive>true</recursive>
+	<pathRegex>.*</pathRegex>
+	<metadataFrom>last</metadataFrom>
+	<matchAxisNDigits>20</matchAxisNDigits>
+	<fileTableInMemory>false</fileTableInMemory>
+	<addAttributes>
+		<att name="cdm_data_type">Grid</att>
+		<att name="Contact">null</att>
+		<att name="contact">Dan Otis - dotis@usf.edu</att>
+		<att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+		<att name="creator_email">dotis@usf.edu</att>
+		<att name="creator_name">DOTIS</att>
+		<att name="creator_type">institution</att>
+		<att name="infoUrl">imars.usf.edu</att>
+		<att name="institution">USF IMaRS</att>
+		<att name="keywords">PACE,apparent_optical_properties,remote_sensing_reflectance</att>
+		<att name="keywords_vocabulary">GCMD Science Keywords</att>
+		<att name="Lat-Lon_Limits">null</att>
+		<att name="Lat_Lon_Limits">24.0N to 31.0N -85.0E to -78.5E</att>
+		<att name="license">[standard]</att>
+		<att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+		<att name="summary">USF IMaRS PACE-OCI FL 1-Day Composite Ocean Color BGC</att>
+		<att name="title">PACE-OCI Ocean Color AOP 1-Day composite for South Florida</att>
+	</addAttributes>
+	<axisVariable>
+		<sourceName>***fileName,timeFormat=yyyyMMdd,POCI_(\d{8})_1D_SFL_OC_AOP_ED\.nc,1</sourceName>
+		<destinationName>time</destinationName>
+		<addAttributes>
+			<att name="ioos_category">Unknown</att>
+			<att name="units">seconds since 1970-01-01T00:00:00Z</att>
+		</addAttributes>
+	</axisVariable>
+	<axisVariable>
+		<sourceName>latitude</sourceName>
+		<destinationName>latitude</destinationName>
+	</axisVariable>
+	<axisVariable>
+		<sourceName>longitude</sourceName>
+		<destinationName>longitude</destinationName>
+	</axisVariable>
+	<dataVariable>
+		<sourceName>Rrs_339</sourceName>
+		<destinationName>Rrs_339</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_339nm</att>
+			<att name="spectral_wavelength">339.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_341</sourceName>
+		<destinationName>Rrs_341</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_341nm</att>
+			<att name="spectral_wavelength">341.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_344</sourceName>
+		<destinationName>Rrs_344</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_344nm</att>
+			<att name="spectral_wavelength">344.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_346</sourceName>
+		<destinationName>Rrs_346</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_346nm</att>
+			<att name="spectral_wavelength">346.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_348</sourceName>
+		<destinationName>Rrs_348</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_348nm</att>
+			<att name="spectral_wavelength">348.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_351</sourceName>
+		<destinationName>Rrs_351</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_351nm</att>
+			<att name="spectral_wavelength">351.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_353</sourceName>
+		<destinationName>Rrs_353</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_353nm</att>
+			<att name="spectral_wavelength">353.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_356</sourceName>
+		<destinationName>Rrs_356</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_356nm</att>
+			<att name="spectral_wavelength">356.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_358</sourceName>
+		<destinationName>Rrs_358</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_358nm</att>
+			<att name="spectral_wavelength">358.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_361</sourceName>
+		<destinationName>Rrs_361</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_361nm</att>
+			<att name="spectral_wavelength">361.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_363</sourceName>
+		<destinationName>Rrs_363</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_363nm</att>
+			<att name="spectral_wavelength">363.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_366</sourceName>
+		<destinationName>Rrs_366</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_366nm</att>
+			<att name="spectral_wavelength">366.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_368</sourceName>
+		<destinationName>Rrs_368</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_368nm</att>
+			<att name="spectral_wavelength">368.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_371</sourceName>
+		<destinationName>Rrs_371</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_371nm</att>
+			<att name="spectral_wavelength">371.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_373</sourceName>
+		<destinationName>Rrs_373</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_373nm</att>
+			<att name="spectral_wavelength">373.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_375</sourceName>
+		<destinationName>Rrs_375</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_375nm</att>
+			<att name="spectral_wavelength">375.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_378</sourceName>
+		<destinationName>Rrs_378</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_378nm</att>
+			<att name="spectral_wavelength">378.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_380</sourceName>
+		<destinationName>Rrs_380</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_380nm</att>
+			<att name="spectral_wavelength">380.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_383</sourceName>
+		<destinationName>Rrs_383</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_383nm</att>
+			<att name="spectral_wavelength">383.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_385</sourceName>
+		<destinationName>Rrs_385</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_385nm</att>
+			<att name="spectral_wavelength">385.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_388</sourceName>
+		<destinationName>Rrs_388</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_388nm</att>
+			<att name="spectral_wavelength">388.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_390</sourceName>
+		<destinationName>Rrs_390</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_390nm</att>
+			<att name="spectral_wavelength">390.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_393</sourceName>
+		<destinationName>Rrs_393</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_393nm</att>
+			<att name="spectral_wavelength">393.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_395</sourceName>
+		<destinationName>Rrs_395</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_395nm</att>
+			<att name="spectral_wavelength">395.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_398</sourceName>
+		<destinationName>Rrs_398</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_398nm</att>
+			<att name="spectral_wavelength">398.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_400</sourceName>
+		<destinationName>Rrs_400</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_400nm</att>
+			<att name="spectral_wavelength">400.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_403</sourceName>
+		<destinationName>Rrs_403</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_403nm</att>
+			<att name="spectral_wavelength">403.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_405</sourceName>
+		<destinationName>Rrs_405</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_405nm</att>
+			<att name="spectral_wavelength">405.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_408</sourceName>
+		<destinationName>Rrs_408</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_408nm</att>
+			<att name="spectral_wavelength">408.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_410</sourceName>
+		<destinationName>Rrs_410</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_410nm</att>
+			<att name="spectral_wavelength">410.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_413</sourceName>
+		<destinationName>Rrs_413</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_413nm</att>
+			<att name="spectral_wavelength">413.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_415</sourceName>
+		<destinationName>Rrs_415</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_415nm</att>
+			<att name="spectral_wavelength">415.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_418</sourceName>
+		<destinationName>Rrs_418</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_418nm</att>
+			<att name="spectral_wavelength">418.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_420</sourceName>
+		<destinationName>Rrs_420</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_420nm</att>
+			<att name="spectral_wavelength">420.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_422</sourceName>
+		<destinationName>Rrs_422</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_422nm</att>
+			<att name="spectral_wavelength">422.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_425</sourceName>
+		<destinationName>Rrs_425</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_425nm</att>
+			<att name="spectral_wavelength">425.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_427</sourceName>
+		<destinationName>Rrs_427</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_427nm</att>
+			<att name="spectral_wavelength">427.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_430</sourceName>
+		<destinationName>Rrs_430</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_430nm</att>
+			<att name="spectral_wavelength">430.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_432</sourceName>
+		<destinationName>Rrs_432</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_432nm</att>
+			<att name="spectral_wavelength">432.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_435</sourceName>
+		<destinationName>Rrs_435</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_435nm</att>
+			<att name="spectral_wavelength">435.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_437</sourceName>
+		<destinationName>Rrs_437</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_437nm</att>
+			<att name="spectral_wavelength">437.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_440</sourceName>
+		<destinationName>Rrs_440</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_440nm</att>
+			<att name="spectral_wavelength">440.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_442</sourceName>
+		<destinationName>Rrs_442</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_442nm</att>
+			<att name="spectral_wavelength">442.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_445</sourceName>
+		<destinationName>Rrs_445</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_445nm</att>
+			<att name="spectral_wavelength">445.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_447</sourceName>
+		<destinationName>Rrs_447</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_447nm</att>
+			<att name="spectral_wavelength">447.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_450</sourceName>
+		<destinationName>Rrs_450</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_450nm</att>
+			<att name="spectral_wavelength">450.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_452</sourceName>
+		<destinationName>Rrs_452</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_452nm</att>
+			<att name="spectral_wavelength">452.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_455</sourceName>
+		<destinationName>Rrs_455</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_455nm</att>
+			<att name="spectral_wavelength">455.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_457</sourceName>
+		<destinationName>Rrs_457</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_457nm</att>
+			<att name="spectral_wavelength">457.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_460</sourceName>
+		<destinationName>Rrs_460</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_460nm</att>
+			<att name="spectral_wavelength">460.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_462</sourceName>
+		<destinationName>Rrs_462</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_462nm</att>
+			<att name="spectral_wavelength">462.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_465</sourceName>
+		<destinationName>Rrs_465</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_465nm</att>
+			<att name="spectral_wavelength">465.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_467</sourceName>
+		<destinationName>Rrs_467</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_467nm</att>
+			<att name="spectral_wavelength">467.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_470</sourceName>
+		<destinationName>Rrs_470</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_470nm</att>
+			<att name="spectral_wavelength">470.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_472</sourceName>
+		<destinationName>Rrs_472</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_472nm</att>
+			<att name="spectral_wavelength">472.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_475</sourceName>
+		<destinationName>Rrs_475</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_475nm</att>
+			<att name="spectral_wavelength">475.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_477</sourceName>
+		<destinationName>Rrs_477</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_477nm</att>
+			<att name="spectral_wavelength">477.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_480</sourceName>
+		<destinationName>Rrs_480</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_480nm</att>
+			<att name="spectral_wavelength">480.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_482</sourceName>
+		<destinationName>Rrs_482</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_482nm</att>
+			<att name="spectral_wavelength">482.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_485</sourceName>
+		<destinationName>Rrs_485</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_485nm</att>
+			<att name="spectral_wavelength">485.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_487</sourceName>
+		<destinationName>Rrs_487</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_487nm</att>
+			<att name="spectral_wavelength">487.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_490</sourceName>
+		<destinationName>Rrs_490</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_490nm</att>
+			<att name="spectral_wavelength">490.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_492</sourceName>
+		<destinationName>Rrs_492</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_492nm</att>
+			<att name="spectral_wavelength">492.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_495</sourceName>
+		<destinationName>Rrs_495</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_495nm</att>
+			<att name="spectral_wavelength">495.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_497</sourceName>
+		<destinationName>Rrs_497</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_497nm</att>
+			<att name="spectral_wavelength">497.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_500</sourceName>
+		<destinationName>Rrs_500</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_500nm</att>
+			<att name="spectral_wavelength">500.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_502</sourceName>
+		<destinationName>Rrs_502</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_502nm</att>
+			<att name="spectral_wavelength">502.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_505</sourceName>
+		<destinationName>Rrs_505</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_505nm</att>
+			<att name="spectral_wavelength">505.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_507</sourceName>
+		<destinationName>Rrs_507</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_507nm</att>
+			<att name="spectral_wavelength">507.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_510</sourceName>
+		<destinationName>Rrs_510</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_510nm</att>
+			<att name="spectral_wavelength">510.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_512</sourceName>
+		<destinationName>Rrs_512</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_512nm</att>
+			<att name="spectral_wavelength">512.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_515</sourceName>
+		<destinationName>Rrs_515</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_515nm</att>
+			<att name="spectral_wavelength">515.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_517</sourceName>
+		<destinationName>Rrs_517</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_517nm</att>
+			<att name="spectral_wavelength">517.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_520</sourceName>
+		<destinationName>Rrs_520</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_520nm</att>
+			<att name="spectral_wavelength">520.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_522</sourceName>
+		<destinationName>Rrs_522</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_522nm</att>
+			<att name="spectral_wavelength">522.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_525</sourceName>
+		<destinationName>Rrs_525</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_525nm</att>
+			<att name="spectral_wavelength">525.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_527</sourceName>
+		<destinationName>Rrs_527</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_527nm</att>
+			<att name="spectral_wavelength">527.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_530</sourceName>
+		<destinationName>Rrs_530</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_530nm</att>
+			<att name="spectral_wavelength">530.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_532</sourceName>
+		<destinationName>Rrs_532</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_532nm</att>
+			<att name="spectral_wavelength">532.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_535</sourceName>
+		<destinationName>Rrs_535</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_535nm</att>
+			<att name="spectral_wavelength">535.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_537</sourceName>
+		<destinationName>Rrs_537</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_537nm</att>
+			<att name="spectral_wavelength">537.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_540</sourceName>
+		<destinationName>Rrs_540</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_540nm</att>
+			<att name="spectral_wavelength">540.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_542</sourceName>
+		<destinationName>Rrs_542</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_542nm</att>
+			<att name="spectral_wavelength">542.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_545</sourceName>
+		<destinationName>Rrs_545</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_545nm</att>
+			<att name="spectral_wavelength">545.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_547</sourceName>
+		<destinationName>Rrs_547</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_547nm</att>
+			<att name="spectral_wavelength">547.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_550</sourceName>
+		<destinationName>Rrs_550</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_550nm</att>
+			<att name="spectral_wavelength">550.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_553</sourceName>
+		<destinationName>Rrs_553</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_553nm</att>
+			<att name="spectral_wavelength">553.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_555</sourceName>
+		<destinationName>Rrs_555</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_555nm</att>
+			<att name="spectral_wavelength">555.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_558</sourceName>
+		<destinationName>Rrs_558</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_558nm</att>
+			<att name="spectral_wavelength">558.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_560</sourceName>
+		<destinationName>Rrs_560</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_560nm</att>
+			<att name="spectral_wavelength">560.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_563</sourceName>
+		<destinationName>Rrs_563</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_563nm</att>
+			<att name="spectral_wavelength">563.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_565</sourceName>
+		<destinationName>Rrs_565</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_565nm</att>
+			<att name="spectral_wavelength">565.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_568</sourceName>
+		<destinationName>Rrs_568</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_568nm</att>
+			<att name="spectral_wavelength">568.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_570</sourceName>
+		<destinationName>Rrs_570</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_570nm</att>
+			<att name="spectral_wavelength">570.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_573</sourceName>
+		<destinationName>Rrs_573</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_573nm</att>
+			<att name="spectral_wavelength">573.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_575</sourceName>
+		<destinationName>Rrs_575</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_575nm</att>
+			<att name="spectral_wavelength">575.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_578</sourceName>
+		<destinationName>Rrs_578</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_578nm</att>
+			<att name="spectral_wavelength">578.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_580</sourceName>
+		<destinationName>Rrs_580</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_580nm</att>
+			<att name="spectral_wavelength">580.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_583</sourceName>
+		<destinationName>Rrs_583</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_583nm</att>
+			<att name="spectral_wavelength">583.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_586</sourceName>
+		<destinationName>Rrs_586</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_586nm</att>
+			<att name="spectral_wavelength">586.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_588</sourceName>
+		<destinationName>Rrs_588</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_588nm</att>
+			<att name="spectral_wavelength">588.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_591</sourceName>
+		<destinationName>Rrs_591</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_591nm</att>
+			<att name="spectral_wavelength">591.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_593</sourceName>
+		<destinationName>Rrs_593</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_593nm</att>
+			<att name="spectral_wavelength">593.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_596</sourceName>
+		<destinationName>Rrs_596</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_596nm</att>
+			<att name="spectral_wavelength">596.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_598</sourceName>
+		<destinationName>Rrs_598</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_598nm</att>
+			<att name="spectral_wavelength">598.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_601</sourceName>
+		<destinationName>Rrs_601</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_601nm</att>
+			<att name="spectral_wavelength">601.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_603</sourceName>
+		<destinationName>Rrs_603</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_603nm</att>
+			<att name="spectral_wavelength">603.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_605</sourceName>
+		<destinationName>Rrs_605</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_605nm</att>
+			<att name="spectral_wavelength">605.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_608</sourceName>
+		<destinationName>Rrs_608</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_608nm</att>
+			<att name="spectral_wavelength">608.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_610</sourceName>
+		<destinationName>Rrs_610</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_610nm</att>
+			<att name="spectral_wavelength">610.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_613</sourceName>
+		<destinationName>Rrs_613</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_613nm</att>
+			<att name="spectral_wavelength">613.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_615</sourceName>
+		<destinationName>Rrs_615</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_615nm</att>
+			<att name="spectral_wavelength">615.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_618</sourceName>
+		<destinationName>Rrs_618</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_618nm</att>
+			<att name="spectral_wavelength">618.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_620</sourceName>
+		<destinationName>Rrs_620</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_620nm</att>
+			<att name="spectral_wavelength">620.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_623</sourceName>
+		<destinationName>Rrs_623</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_623nm</att>
+			<att name="spectral_wavelength">623.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_625</sourceName>
+		<destinationName>Rrs_625</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_625nm</att>
+			<att name="spectral_wavelength">625.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_627</sourceName>
+		<destinationName>Rrs_627</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_627nm</att>
+			<att name="spectral_wavelength">627.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_630</sourceName>
+		<destinationName>Rrs_630</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_630nm</att>
+			<att name="spectral_wavelength">630.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_632</sourceName>
+		<destinationName>Rrs_632</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_632nm</att>
+			<att name="spectral_wavelength">632.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_635</sourceName>
+		<destinationName>Rrs_635</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_635nm</att>
+			<att name="spectral_wavelength">635.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_637</sourceName>
+		<destinationName>Rrs_637</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_637nm</att>
+			<att name="spectral_wavelength">637.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_640</sourceName>
+		<destinationName>Rrs_640</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_640nm</att>
+			<att name="spectral_wavelength">640.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_641</sourceName>
+		<destinationName>Rrs_641</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_641nm</att>
+			<att name="spectral_wavelength">641.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_642</sourceName>
+		<destinationName>Rrs_642</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_642nm</att>
+			<att name="spectral_wavelength">642.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_643</sourceName>
+		<destinationName>Rrs_643</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_643nm</att>
+			<att name="spectral_wavelength">643.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_645</sourceName>
+		<destinationName>Rrs_645</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_645nm</att>
+			<att name="spectral_wavelength">645.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_646</sourceName>
+		<destinationName>Rrs_646</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_646nm</att>
+			<att name="spectral_wavelength">646.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_647</sourceName>
+		<destinationName>Rrs_647</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_647nm</att>
+			<att name="spectral_wavelength">647.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_648</sourceName>
+		<destinationName>Rrs_648</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_648nm</att>
+			<att name="spectral_wavelength">648.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_650</sourceName>
+		<destinationName>Rrs_650</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_650nm</att>
+			<att name="spectral_wavelength">650.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_651</sourceName>
+		<destinationName>Rrs_651</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_651nm</att>
+			<att name="spectral_wavelength">651.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_652</sourceName>
+		<destinationName>Rrs_652</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_652nm</att>
+			<att name="spectral_wavelength">652.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_653</sourceName>
+		<destinationName>Rrs_653</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_653nm</att>
+			<att name="spectral_wavelength">653.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_655</sourceName>
+		<destinationName>Rrs_655</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_655nm</att>
+			<att name="spectral_wavelength">655.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_656</sourceName>
+		<destinationName>Rrs_656</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_656nm</att>
+			<att name="spectral_wavelength">656.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_657</sourceName>
+		<destinationName>Rrs_657</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_657nm</att>
+			<att name="spectral_wavelength">657.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_658</sourceName>
+		<destinationName>Rrs_658</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_658nm</att>
+			<att name="spectral_wavelength">658.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_660</sourceName>
+		<destinationName>Rrs_660</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_660nm</att>
+			<att name="spectral_wavelength">660.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_661</sourceName>
+		<destinationName>Rrs_661</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_661nm</att>
+			<att name="spectral_wavelength">661.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_662</sourceName>
+		<destinationName>Rrs_662</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_662nm</att>
+			<att name="spectral_wavelength">662.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_663</sourceName>
+		<destinationName>Rrs_663</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_663nm</att>
+			<att name="spectral_wavelength">663.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_665</sourceName>
+		<destinationName>Rrs_665</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_665nm</att>
+			<att name="spectral_wavelength">665.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_666</sourceName>
+		<destinationName>Rrs_666</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_666nm</att>
+			<att name="spectral_wavelength">666.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_667</sourceName>
+		<destinationName>Rrs_667</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_667nm</att>
+			<att name="spectral_wavelength">667.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_668</sourceName>
+		<destinationName>Rrs_668</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_668nm</att>
+			<att name="spectral_wavelength">668.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_670</sourceName>
+		<destinationName>Rrs_670</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_670nm</att>
+			<att name="spectral_wavelength">670.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_671</sourceName>
+		<destinationName>Rrs_671</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_671nm</att>
+			<att name="spectral_wavelength">671.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_672</sourceName>
+		<destinationName>Rrs_672</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_672nm</att>
+			<att name="spectral_wavelength">672.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_673</sourceName>
+		<destinationName>Rrs_673</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_673nm</att>
+			<att name="spectral_wavelength">673.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_675</sourceName>
+		<destinationName>Rrs_675</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_675nm</att>
+			<att name="spectral_wavelength">675.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_676</sourceName>
+		<destinationName>Rrs_676</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_676nm</att>
+			<att name="spectral_wavelength">676.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_677</sourceName>
+		<destinationName>Rrs_677</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_677nm</att>
+			<att name="spectral_wavelength">677.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_678</sourceName>
+		<destinationName>Rrs_678</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_678nm</att>
+			<att name="spectral_wavelength">678.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_679</sourceName>
+		<destinationName>Rrs_679</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_679nm</att>
+			<att name="spectral_wavelength">679.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_681</sourceName>
+		<destinationName>Rrs_681</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_681nm</att>
+			<att name="spectral_wavelength">681.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_682</sourceName>
+		<destinationName>Rrs_682</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_682nm</att>
+			<att name="spectral_wavelength">682.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_683</sourceName>
+		<destinationName>Rrs_683</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_683nm</att>
+			<att name="spectral_wavelength">683.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_684</sourceName>
+		<destinationName>Rrs_684</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_684nm</att>
+			<att name="spectral_wavelength">684.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_686</sourceName>
+		<destinationName>Rrs_686</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_686nm</att>
+			<att name="spectral_wavelength">686.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_687</sourceName>
+		<destinationName>Rrs_687</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_687nm</att>
+			<att name="spectral_wavelength">687.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_688</sourceName>
+		<destinationName>Rrs_688</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_688nm</att>
+			<att name="spectral_wavelength">688.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_689</sourceName>
+		<destinationName>Rrs_689</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_689nm</att>
+			<att name="spectral_wavelength">689.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_691</sourceName>
+		<destinationName>Rrs_691</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_691nm</att>
+			<att name="spectral_wavelength">691.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_693</sourceName>
+		<destinationName>Rrs_693</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_693nm</att>
+			<att name="spectral_wavelength">693.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_694</sourceName>
+		<destinationName>Rrs_694</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_694nm</att>
+			<att name="spectral_wavelength">694.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_696</sourceName>
+		<destinationName>Rrs_696</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_696nm</att>
+			<att name="spectral_wavelength">696.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_697</sourceName>
+		<destinationName>Rrs_697</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_697nm</att>
+			<att name="spectral_wavelength">697.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_698</sourceName>
+		<destinationName>Rrs_698</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_698nm</att>
+			<att name="spectral_wavelength">698.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_699</sourceName>
+		<destinationName>Rrs_699</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_699nm</att>
+			<att name="spectral_wavelength">699.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_701</sourceName>
+		<destinationName>Rrs_701</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_701nm</att>
+			<att name="spectral_wavelength">701.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_702</sourceName>
+		<destinationName>Rrs_702</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_702nm</att>
+			<att name="spectral_wavelength">702.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>Rrs_703</sourceName>
+		<destinationName>Rrs_703</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">0.01</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Remote_Sensing_Reflectance(Rrs)</att>
+			<att name="standard_name">Remote_Sensing_Reflectance_at_703nm</att>
+			<att name="spectral_wavelength">703.0</att>
+			<att name="Units">null</att>
+			<att name="units">sr^-1</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>avw</sourceName>
+		<destinationName>avw</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">705.0</att>
+			<att name="colorBarMinimum" type="double">335.0</att>
+			<att name="colorBarScale">Linear</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Apparent_Visible_Wavelength</att>
+			<att name="standard_name">Apparent_Visible_Wavelength</att>
+			<att name="Units">null</att>
+			<att name="units">nm</att>
+		</addAttributes>
+	</dataVariable>
+	<dataVariable>
+		<sourceName>STRAYLIGHT_MASK</sourceName>
+		<destinationName>STRAYLIGHT_MASK</destinationName>
+		<dataType>double</dataType>
+		<addAttributes>
+			<att name="colorBarMaximum" type="double">1.0</att>
+			<att name="colorBarMinimum" type="double">0.0</att>
+			<att name="ioos_category">Ocean Color</att>
+			<att name="long_name">Straylight mask based on Level-2 straylight flag</att>
+			<att name="Units">null</att>
+			<att name="units">none</att>
+		</addAttributes>
+	</dataVariable>
+</dataset>
