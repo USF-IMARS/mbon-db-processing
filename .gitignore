@@ -1,0 +1,5 @@
+*.asv
+CLIM_files/
+DB_diag_db24.txt
+loc_files/
+old_code/
