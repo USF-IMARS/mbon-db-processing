@@ -26,7 +26,7 @@ function[dummy]=MOSAIC_1D_func_vPOCI(roi,roi_2,roi_out,pc,sub,rec_files,sensor)
 eval(['path_L3=''/srv/imars-objects/tpa_pgs/rois2/' roi_out '/L3_1D_' sensor '/' pc '/'';'])
 
 % XML files w/product and projection info
-eval(['xml_file=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/xml_files/map_' sensor '_' roi_out '_' pc '.xml'';']) % Need to add sensor
+eval(['xml_file=''~/DB_files/DB_v24/xml_files/map_' sensor '_' roi_out '_' pc '.xml'';']) % Need to add sensor
 
 % Input files (ALL input files are in "gom")
 if sub==0

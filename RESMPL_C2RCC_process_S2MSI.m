@@ -25,7 +25,7 @@ rec_files=0; % Number of most recent files to process; Set to zero for all recen
 eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' pc '_' platform '/'';'])
 
 % XML files w/product and projection info
-eval(['xml_file=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/xml_files/' platform '_' pc '_graph.xml'';']) % Need to add sensor
+eval(['xml_file=''~/DB_files/DB_v24/xml_files/' platform '_' pc '_graph.xml'';']) % Need to add sensor
 
 % Input folders (may need to use manifest file
 if sub==0

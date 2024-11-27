@@ -62,16 +62,16 @@ curl -o /srv/imars-objects/tpa_pgs/rois2/seus/USGS_temp/StMarysRv_GH.txt 'https:
 # curl -o /srv/imars-objects/tpa_pgs/rois2/seus/USGS_temp/HudsonCr_USGS_WQ.txt 'https://waterdata.usgs.gov/nwis/dv?cb_00010=on&cb_00045=on&cb_00065=on&cb_00095=on&cb_00300=on&cb_00400=on&cb_63680=on&format=rdb&site_no=022035975&referred_module=sw&period=&begin_date=1910-01-01'     
 
 echo updating FK  USGS dashboard files...    
-matlab -nodisplay -r "cd('/srv/imars-objects/homes/dotis/DB_files/DB_v24/');TXT2CSV_USGS_FK_dbv24;quit"
+matlab -nodisplay -r "cd('~/DB_files/DB_v24/');TXT2CSV_USGS_FK_dbv24;quit"
 
 echo updating FGB USGS dashboard files...    
-matlab -nodisplay -r "cd('/srv/imars-objects/homes/dotis/DB_files/DB_v24/');TXT2CSV_USGS_FGB_dbv24;quit"
+matlab -nodisplay -r "cd('~/DB_files/DB_v24/');TXT2CSV_USGS_FGB_dbv24;quit"
 
 # Sed to replace NaN values with blank space (all GOM USGS files)
 # sed -i 's/NaN/ /g' /srv/imars-objects/tpa_pgs/rois2/gom/csv_ts_data/data/USGS_*.csv
 
 echo updating SEUS USGS dashboard files...    
-matlab -nodisplay -r "cd('/srv/imars-objects/homes/dotis/DB_files/DB_v24/');TXT2CSV_USGS_SEUS_dbv24;quit"
+matlab -nodisplay -r "cd('~/DB_files/DB_v24/');TXT2CSV_USGS_SEUS_dbv24;quit"
 
 # Sed to replace NaN values with blank space (all SEUS USGS files)
 # sed -i 's/NaN/ /g' /srv/imars-objects/tpa_pgs/rois2/seus/csv_ts_data/data/USGS_*.csv

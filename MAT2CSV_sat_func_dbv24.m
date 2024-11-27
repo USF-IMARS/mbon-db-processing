@@ -31,7 +31,7 @@ yr_mac_end=2019;
 end
 
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24';
+path_main='~/DB_files/DB_v24';
 
 % OUTPUT PATH
 % For now, output csv to "gom"

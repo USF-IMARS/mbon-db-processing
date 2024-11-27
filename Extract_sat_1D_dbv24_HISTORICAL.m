@@ -14,11 +14,11 @@
 % Output to .mat, then combine w/historical data and output as .csv
 
 clear 
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/');
-addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/m_map');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/export_fig');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/jsonlab-2.0/jsonlab-2.0');
+addpath('~/MATLAB_files/');
+addpath('~/MATLAB_files/m_map');
+addpath('~/MATLAB_files/export_fig');
+addpath('~/DB_files/DB_v24');
+addpath('~/MATLAB_files/jsonlab-2.0/jsonlab-2.0');
 
 % % Test
 sensor='VSNPP';
@@ -35,7 +35,7 @@ prods={'chlor_a','Rrs_671','Kd_490'}; % VSNPP OC
 
 % Set filepaths, lat/lon limits, and x/y sizes
 path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24';
-eval(['path_json=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/loc_files/' roi_2 ''';'])
+eval(['path_json=''~/DB_files/DB_v24/loc_files/' roi_2 ''';'])
 
 % Get ROI from json files
 eval(['flnms_tmp=struct2cell(dir(''' path_json '/*.geojson''));'])

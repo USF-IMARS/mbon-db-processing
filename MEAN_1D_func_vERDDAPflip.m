@@ -6,10 +6,10 @@
 
 % Test
 clear
-addpath('/home1/dotis/MATLAB_files/');
-addpath('/home1/dotis/MATLAB_files/m_map');
-addpath('/home1/dotis/MATLAB_files/export_fig');
-addpath('/home1/dotis/DB_files/DB_v2');
+addpath('~/MATLAB_files/');
+addpath('~/MATLAB_files/m_map');
+addpath('~/MATLAB_files/export_fig');
+addpath('~/DB_files/DB_v24');
 
 % Set params
 sensor='VSNPP';

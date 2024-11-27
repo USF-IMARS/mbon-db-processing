@@ -1,6 +1,6 @@
 #/bin/bash
 
-matlab -nodisplay -r "cd('/srv/imars-objects/homes/dotis/DB_files/DB_v24/');run_MEAN_7D_dbv24;quit"
+matlab -nodisplay -r "cd('~/DB_files/DB_v24/');run_MEAN_7D_dbv24;quit"
 
 # GOM
 # VSNPP

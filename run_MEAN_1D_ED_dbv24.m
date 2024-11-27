@@ -8,7 +8,7 @@ addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24');
 %%%%%% GOM %%%%%%
 roi='gom';
 roi_2='GOM';
-recent=15;
+recent=5;
 
 % VSNPP/florida
 sensor='VSNPP';

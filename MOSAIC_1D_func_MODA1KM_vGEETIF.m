@@ -9,8 +9,8 @@ clear
 % addpath('/srv/imars-objects/homes/dotis/MATLAB_files/')
 % addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24')
 % Filepaths for seashell
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/')
-addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24')
+addpath('~/MATLAB_files/')
+addpath('~/DB_files/DB_v24')
 
 
 roi='USVI';

@@ -31,7 +31,7 @@ eval(['path_L3=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L3_1D_' sensor '/' pc 
 end
 
 % XML files w/product and projection info
-eval(['xml_file=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/xml_files/map_' sensor '_' roi '_' pc '.xml'';']) % Need to add sensor
+eval(['xml_file=''~/DB_files/DB_v24/xml_files/map_' sensor '_' roi '_' pc '.xml'';']) % Need to add sensor
 
 % Input files (ALL input files are in "gom")
 if sub==0 && strcmp(pc,'OC')==1

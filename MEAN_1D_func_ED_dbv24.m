@@ -83,7 +83,7 @@ units=units_sst4;
 end
 
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24/';
+path_main='~/DB_files/DB_v24/';
 
 % INPUT AND OUTPUT PATHS
 eval(['file_path=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L3_1D_' sensor '/' prod_class '/'';'])

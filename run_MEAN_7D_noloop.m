@@ -1,7 +1,9 @@
 
 clear
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/');
-addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24');
+addpath('~/MATLAB_files/');
+addpath('~/MATLAB_files/m_map');
+addpath('~/MATLAB_files/export_fig');
+addpath('~/DB_files/DB_v24');
 
 % Set recent
 % For all files, set recent=0

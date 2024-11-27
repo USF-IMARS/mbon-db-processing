@@ -35,8 +35,8 @@ function[dummy]=Extract_sat_1D_func_dbv24_RECENTonly(sensor,roi,roi_2,prod_class
 % Use 1/1/2024 as cutoff point
 
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24';
-eval(['path_json=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/loc_files/' roi_2 ''';'])
+path_main='~/DB_files/DB_v24';
+eval(['path_json=''~/DB_files/DB_v24/loc_files/' roi_2 ''';'])
 
 % Get ROI from json files
 eval(['flnms_tmp=struct2cell(dir(''' path_json '/*.geojson''));'])
