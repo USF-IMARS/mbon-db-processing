@@ -1,0 +1,99 @@
+<graph id="S3OLCI_OBPG_GraphId">
+    <version>1.0</version>
+        <node id="BandMathNode1">
+    <operator>BandMaths</operator>
+    	<sources>
+           <sourceProduct>${sourceProduct}</sourceProduct>
+        </sources>
+        <parameters>
+        <targetBands>
+               <targetBand>
+                   <name>nLw_560</name>
+                   <expression>Rrs_560*1796.853</expression>
+                   <description>nLw at 560nm</description>
+                   <type>float32</type>
+                   <unit>mW cm^-2 um^-1</unit>
+                   <spectralWavelength>560.0</spectralWavelength>
+                   <validExpression>(nLw_560 > -0.01 and nLw_560 &lt; 100 and nLw_560 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+               </targetBand> 
+               <targetBand>
+                   <name>nLw_665</name>
+                   <expression>Rrs_665*1530.151</expression>
+                   <description>nLw at 665nm</description>
+                   <type>float32</type>
+                   <unit>mW cm^-2 um^-1</unit>
+                   <spectralWavelength>665.0</spectralWavelength>
+                   <validExpression>(nLw_665 > -0.01 and nLw_665 &lt; 100 and nLw_665 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+               </targetBand> 
+               <targetBand>
+                   <name>nLw_674</name>
+                   <expression>Rrs_674*1494.719</expression>
+                   <description>nLw at 674nm</description>
+                   <type>float32</type>
+                   <unit>mW cm^-2 um^-1</unit>
+                   <spectralWavelength>674.0</spectralWavelength>
+                   <validExpression>(nLw_674 > -0.01 and nLw_674 &lt; 100 and nLw_674 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+               </targetBand> 
+               <targetBand>
+                   <name>nLw_681</name>
+                   <expression>Rrs_681*1468.862</expression>
+                   <description>nLw at 681nm</description>
+                   <type>float32</type>
+                   <unit>mW cm^-2 um^-1</unit>
+                   <spectralWavelength>681.0</spectralWavelength>
+                   <validExpression>(nLw_681 > -0.01 and nLw_681 &lt; 100 and nLw_681 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+               </targetBand> 
+               <targetBand>
+                   <name>nLw_709</name>
+                   <expression>Rrs_709*1403.106</expression>
+                   <description>nLw at 709nm</description>
+                   <type>float32</type>
+                   <unit>mW cm^-2 um^-1</unit>  
+                   <spectralWavelength>709.0</spectralWavelength>
+                   <validExpression>(nLw_709 > -0.01 and nLw_709 &lt; 100 and nLw_709 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+               </targetBand> 
+        </targetBands>
+        </parameters>
+        </node>
+    <node id="FLH_Node">
+    <operator>FlhMci</operator>
+    	<sources>
+            <sourceProduct>BandMathNode1</sourceProduct>
+        </sources>
+        <parameters>
+        <lowerBaselineBandName>nLw_709</lowerBaselineBandName>
+        <upperBaselineBandName>nLw_665</upperBaselineBandName>
+        <signalBandName>nLw_681</signalBandName>
+        <lineHeightBandName>FLH</lineHeightBandName>
+        <slope>0</slope>
+        <slopeBandName>FLH_slope</slopeBandName>
+        <cloudCorrectionFactor>1.005</cloudCorrectionFactor>
+        <invalidFlhMciValue>NaN</invalidFlhMciValue>
+      </parameters>
+    </node>
+    <node id="BandMathNode2">
+    <operator>BandMaths</operator>
+    	<sources>
+           <sourceProducts>FLH_Node</sourceProducts>
+        </sources>
+    <parameters>
+           <targetBands>
+                <targetBand>
+                   <name>FLH</name>
+                   <expression>FLH</expression>
+                   <description>Fluorescence Line Height (ESA FLH alg.)</description>
+                   <type>float32</type>
+                   <validExpression>(FLH > -0.1 and FLH lt; 0.3)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <unit>mW cm^-2 um^-1 sr^-1</unit> 
+                </targetBand>
+           </targetBands>
+    </parameters>
+    </node>
+</graph>
+

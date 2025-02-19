@@ -12,46 +12,45 @@
 
 % TEST
 clear
-pc='OC_AOP'; % PACE files are OC_BGC (chlor_a and others) or AOP (rrs)
-roi='gom';
-roi_2='GOM';
-roi_out='florida';
-sensor='POCI';
-sub=0; % Indicates to be used with recent files from subscription directories
+pc='OC_AOP'; % PACE files are OC_BGC (chlor_a and others) or OC_AOP (rrs and nflh)
+roi='florida';
+sensor='PACE_OCI';
+version='V3_0';
+sensor_prefix='P';
 rec_files=0; % Number of most recent files to process; Set to zero for all recent files 
 
+% No longer using subscription services for PACE_OCI
+% Need to deal with NRT vs non-NRT files in this function
+% For recent files, just use NRT
+% Then, once per month, update older files to non-NRT
+
+% Run as a function for automated processing
 % function[dummy]=MOSAIC_1D_func_vPOCI(roi,roi_2,roi_out,pc,sub,rec_files,sensor)
 
 % Output path
-eval(['path_L3=''/srv/pgs/rois2/' roi_out '/L3_1D_' sensor '/' pc '/'';'])
+eval(['path_L3=''/srv/pgs/rois2/' roi '/L3_1D_' sensor '/' pc '/'';'])
 
 % XML files w/product and projection info
-eval(['xml_file=''~/DB_files/DB_v24/xml_files/map_' sensor '_' roi_out '_' pc '.xml'';']) % Need to add sensor
+eval(['xml_file=''~/DB_files/DB_v24/xml_files/map_' sensor '_' roi '_' pc '.xml'';']) 
 
 % Input files (ALL input files are in "gom")
-if sub==0
-eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_v2/' pc '/'';']) % Updated OC files in separate directory
-end
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_' version '/' pc '/'';']) 
 
-% if sub==1
-% eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
-% end
+% Need to break out input files into two bins: NRT and non-NRT
+% List non-NRT input files
+eval(['flnms_tmp=struct2cell(dir(''' path_L2 '/' sensor '.*.' pc '.' version '.nc''));']) 
+% NRT files
+eval(['flnms_tmp_nrt=struct2cell(dir(''' path_L2 '/' sensor '.*.' pc '.' version '.NRT.nc''));']) 
 
-% List input files
-if sub==0
-eval(['flnms_tmp=struct2cell(dir(''' path_L2 '/*.nc''));']) 
-end
-
-% if sub==1 && strcmp(pc,'OC')==1
-% eval(['flnms_tmp=struct2cell(dir(''' path_L2 '*.L2.' pc '.*nc''));']) % Use for subscription files
-% end
-
-% Add sensor ID
-sensor_prefix='P';
 
 % Extract filename
 flnms_str=char(flnms_tmp(1,:));
+flnms_str_nrt=char(flnms_tmp_nrt(1,:));
 num_files=size(flnms_str,1);
+num_files_nrt=size(flnms_str_nrt,1);
+
+
+
 
 % NEW filenames: Define DOY using function from Y/M/D;
 % CHANGED AS OF 8/1/2022

@@ -60,11 +60,11 @@ prods=prod_sstn;
 units=units_sstn;
 end
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24/';
+path_main='~/DB_files/DB_v24/';
 
 % INPUT AND OUTPUT PATHS
-eval(['file_path=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L3_1D_' sensor '/' prod_class '/'';'])
-eval(['path_out=''/srv/imars-objects/tpa_pgs/rois2/' roi '/MEAN_7D_' sensor '/' prod_class '/'';'])
+eval(['file_path=''/srv/pgs/rois2/' roi '/L3_1D_' sensor '/' prod_class '/'';'])
+eval(['path_out=''/srv/pgs/rois2/' roi '/MEAN_7D_' sensor '/' prod_class '/'';'])
 % eval(['path_geotiff=''/srv/imars-objects/tpa_pgs/rois/' roi '/TIFF_out_' sensor '/' prod_class '/'';'])
 
 % Define input files for each product type
@@ -145,10 +145,10 @@ for p=1:length(prods)
 
 % Load climatology
 if strcmp(sensor,'MODA')==1
-eval(['load ''/srv/imars-objects/homes/dotis/DB_files/DB_v24/CLIM_files/A2003_2019_7D_CLIM_' roi_2 '_' prods{p} '_SLm.mat'';'])
+eval(['load ''~/DB_files/DB_v24/CLIM_files/A2003_2019_7D_CLIM_' roi_2 '_' prods{p} '_SLm.mat'';'])
 end
 if strcmp(sensor,'VSNPP')==1
-eval(['load ''/srv/imars-objects/homes/dotis/DB_files/DB_v24/CLIM_files/V2013_2019_7D_CLIM_' roi_2 '_' prods{p} '_SLm.mat'';'])
+eval(['load ''~/DB_files/DB_v24/CLIM_files/V2013_2019_7D_CLIM_' roi_2 '_' prods{p} '_SLm.mat'';'])
 end
 % Loop through images in bin
 cd(file_path)

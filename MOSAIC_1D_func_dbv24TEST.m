@@ -27,37 +27,37 @@ rec_files=0; % Number of most recent files to process; Set to zero for all recen
 % end
 %  GOM and SEUS on tpa_pgs
 if strcmp(roi_2,'GOM')==1 || strcmp(roi_2,'SEUS')==1
-eval(['path_L3=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L3_1D_' sensor '/' pc '/'';'])
+eval(['path_L3=''/srv/pgs/rois2/' roi '/L3_1D_' sensor '/' pc '/'';'])
 end
 
 % XML files w/product and projection info
-eval(['xml_file=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/xml_files/map_' sensor '_' roi '_' pc '.xml'';']) % Need to add sensor
+eval(['xml_file=''~/DB_files/DB_v24/xml_files/map_' sensor '_' roi '_' pc '.xml'';']) % Need to add sensor
 
 % Input files (ALL input files are in "gom")
 if sub==0 && strcmp(pc,'OC')==1
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_r2022/' pc '/'';']) % Updated OC files in separate directory
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_r2022/' pc '/'';']) % Updated OC files in separate directory
 end
 if sub==0 && strcmp(pc,'SST4')==1
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_r2022/' pc '/'';']) 
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_r2022/' pc '/'';']) 
 end
 if sub==0 && strcmp(pc,'SSTN')==1
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_r2022/' pc '/'';']) 
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_r2022/' pc '/'';']) 
 end
 if sub==0 && strcmp(pc,'SST')==1
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_r2022/' pc '/'';']) 
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_r2022/' pc '/'';']) 
 end
 
 if sub==1 && strcmp(pc,'SSTN')==1
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_sub/' pc '/'';']) % For GOM only 
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_sub/' pc '/'';']) % For GOM only 
 end
 if sub==1 && strcmp(pc,'SST4')==1
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
 end
 if sub==1 && strcmp(pc,'SST')==1
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
 end
 if sub==1 && strcmp(pc,'OC')==1
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
 end
 
 % List input files

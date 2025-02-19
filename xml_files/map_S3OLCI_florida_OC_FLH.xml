@@ -1,0 +1,197 @@
+<graph id="mosaic_1km_Keys_OC">
+<version>1.0</version>
+<node id="mosaicNode">
+<operator>Mosaic</operator>
+<sources>
+<sourceProducts>${sourceProducts}</sourceProducts>
+</sources>
+<parameters>
+<variables>
+<variable>
+<name>Rrs_560</name>
+<expression>Rrs_560</expression>
+</variable>
+<variable>
+<name>nLw_560</name>
+<expression>Rrs_560*1796.853</expression>
+</variable>
+<variable>
+<name>Rrs_665</name>
+<expression>Rrs_665</expression>
+</variable>
+<variable>
+<name>nLw_665</name>
+<expression>Rrs_665*1530.151</expression>
+</variable>
+<variable>
+<name>Rrs_674</name>
+<expression>Rrs_674</expression>
+</variable>
+<variable>
+<name>nLw_674</name>
+<expression>Rrs_674*1494.719</expression>
+</variable>
+<variable>
+<name>Rrs_681</name>
+<expression>Rrs_681</expression>
+</variable>
+<variable>
+<name>nLw_681</name>
+<expression>Rrs_681*1468.862</expression>
+</variable>
+<variable>
+<name>Rrs_709</name>
+<expression>Rrs_709</expression>
+</variable>
+<variable>
+<name>nLw_709</name>
+<expression>Rrs_709*1403.106</expression>
+</variable>
+<variable>
+<name>chlor_a</name>
+<expression>chlor_a</expression>
+</variable>
+<variable>
+<name>Kd_490</name>
+<expression>Kd_490</expression>
+</variable>
+<variable>
+<name>l2_flags</name>
+<expression>l2_flags</expression>
+</variable>
+<variable>
+<name>STRAYLIGHT_MASK</name>
+<expression>l2_flags.STRAYLIGHT ? 1 : 0</expression>
+</variable>
+</variables>
+<conditions>
+<condition>
+<name>not_LAND</name>
+<expression>NOT l2_flags.LAND</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_CLDICE</name>
+<expression>NOT l2_flags.CLDICE</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_HIGLINT</name>
+<expression>NOT l2_flags.HIGLINT</expression>
+<output>false</output>
+</condition>
+</conditions>
+<combine>AND</combine>
+<crs>
+PROJCS["Equidistant_Cylindrical / World Geodetic System 1984", 
+GEOGCS["World Geodetic System 1984", 
+DATUM["World Geodetic System 1984", 
+SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+AUTHORITY["EPSG","6326"]], 
+PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+UNIT["degree", 0.017453292519943295], 
+AXIS["Geodetic longitude", EAST], 
+AXIS["Geodetic latitude", NORTH]], 
+PROJECTION["Equidistant_Cylindrical"], 
+PARAMETER["central_meridian", 0.0], 
+PARAMETER["latitude_of_origin", 0.0], 
+PARAMETER["standard_parallel_1", 0.0], 
+PARAMETER["false_easting", 0.0], 
+PARAMETER["false_northing", 0.0], 
+UNIT["m", 1.0], 
+AXIS["Easting", EAST],
+AXIS["Northing", NORTH]] 
+</crs>
+<orthorectify>false</orthorectify>
+<elevationModelName>GETASSE30</elevationModelName>
+<resampling>Nearest</resampling>
+<westBound>-85.0</westBound>
+<northBound>30.0</northBound>
+<eastBound>-78.5</eastBound>
+<southBound>24.0</southBound>
+<pixelSizeX>300</pixelSizeX>
+<pixelSizeY>300</pixelSizeY>
+</parameters>
+</node>
+    <node id="FLHNode">
+    <operator>FlhMci</operator>
+    	<sources>
+            <sourceProduct>mosaicNode</sourceProduct>
+        </sources>
+    <parameters>
+        <lowerBaselineBandName>Rrs_709</lowerBaselineBandName>
+        <upperBaselineBandName>Rrs_665</upperBaselineBandName>
+        <signalBandName>Rrs_681</signalBandName>
+        <lineHeightBandName>FLH</lineHeightBandName>
+        <slope>0</slope>
+        <slopeBandName>FLH_slope</slopeBandName>
+        <cloudCorrectionFactor>1.005</cloudCorrectionFactor>
+        <invalidFlhMciValue>NaN</invalidFlhMciValue>
+    </parameters>
+</node>
+    <node id="BandMathNode1">
+    <operator>BandMaths</operator>
+    	<sources>
+           <sourceProducts>mosaicNode</sourceProducts>
+        </sources>
+    <parameters>
+           <targetBands>
+                <targetBand>
+                   <name>Rrs_665</name>
+                   <expression>Rrs_665</expression>
+                   <description>Remote sensing reflectance at 665 nm</description>
+                   <type>float32</type>
+                   <validExpression>(Rrs_665 > -0.01 and Rrs_665 &lt; 0.1 and Rrs_665 !=0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <spectralWavelength>665.0</spectralWavelength>
+                   <unit>sr^-1</unit> 
+                </targetBand>
+                <targetBand>
+                   <name>chlor_a</name>
+                   <expression>chlor_a</expression>
+                   <description>Chlorophyll-a concentration, OCI Algorithm</description>
+                   <type>float32</type>
+                   <validExpression>(chlor_a > 0.001 and chlor_a &lt; 100)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <unit>mg m^-3</unit>                  
+                </targetBand> 
+                <targetBand>
+                   <name>Kd_490</name>
+                   <expression>Kd_490</expression>
+                   <description>Diffuse attenuation coefficient at 490nm</description>
+                   <type>float32</type> 
+                   <validExpression>(Kd_490 > 0.001 and Kd_490 &lt; 1.0)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <unit>m^-1</unit>            
+                </targetBand>
+                <targetBand>
+                   <name>STRAYLIGHT_MASK</name>
+                   <expression>STRAYLIGHT_MASK</expression>
+                   <description>Straylight affected pixels</description>
+                   <type>float32</type>             
+                </targetBand>
+           </targetBands>
+       </parameters>
+</node>
+    <node id="BandMathNode2">
+        <operator>BandMaths</operator>
+    	   <sources>
+           <sourceProducts>FLHNode</sourceProducts>
+           </sources>
+        <parameters>
+            <targetBands>
+                <targetBand>
+                   <name>FLH</name>
+                   <expression>FLH</expression>
+                   <description>Fluorescence Line Height (ESA FLH alg.)</description>
+                   <type>float32</type>
+                   <validExpression>(FLH &lt; 100)</validExpression>
+                   <noDataValue>NaN</noDataValue>
+                   <unit>W m^-2 um^-1 sr^-1</unit>                  
+                </targetBand> 
+           </targetBands> 
+        </parameters>
+    </node>
+</graph>
+
+

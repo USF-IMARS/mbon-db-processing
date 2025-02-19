@@ -31,11 +31,11 @@ yr_mac_end=2019;
 end
 
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24';
+path_main='~/DB_files/DB_v24';
 
 % OUTPUT PATH
 % For now, output csv to "gom"
-eval(['path_out=''/srv/imars-objects/tpa_pgs/rois2/' roi '/csv_ts_data/data'';'])
+eval(['path_out=''/srv/pgs/rois2/' roi '/csv_ts_data/data'';'])
 
 % In the future, use this directory:
 % eval(['path_out=''/srv/imars-objects/tpa_pgs/rois/' roi '/extracted_sat_ts_seus_csv_data/data'';'])
@@ -46,12 +46,12 @@ for p=1:length(prods)
 % Load raw, unbinned t-s data from file by roi and prod(s) to extract
 % Load both recent and historical data
 % Old (clip at 12/31/2022)
-eval(['load /srv/imars-objects/tpa_pgs/rois2/' roi '/EXT_TS_' sensor '/' roi_2 'dbv24_' prods{p} '_TS_' sensor '_1D_raw_vHISTORICAL.mat'])
+eval(['load /srv/pgs/rois2/' roi '/EXT_TS_' sensor '/' roi_2 'dbv24_' prods{p} '_TS_' sensor '_1D_raw_vHISTORICAL.mat'])
 ts_old_tmp = ts_tmp;
 clear ts_tmp
 
 % Recent (append from 1/1/2023)
-eval(['load /srv/imars-objects/tpa_pgs/rois2/' roi '/EXT_TS_' sensor '/' roi_2 'dbv24_' prods{p} '_TS_' sensor '_1D_raw_vRECENT.mat'])
+eval(['load /srv/pgs/rois2/' roi '/EXT_TS_' sensor '/' roi_2 'dbv24_' prods{p} '_TS_' sensor '_1D_raw_vRECENT.mat'])
 
 %%%% BINNING AND OUPUT %%%%%
 % Point extractions
@@ -64,7 +64,7 @@ ts_time=ts_old_tmp(s).dttime;
 %%%%%% NEEDS TO BE UPDATED EACH YEAR %%%%%%
 % Only 365 days are processed for "recent" files
 % At the beginning of each year, need to re-extract and update "old" files and change "cut" dates
-time_cut=find(ts_time=='01-Jan-2024'); % 1/1/2024
+time_cut=find(ts_time=='01-Jan-2025'); % 1/1/2025
 % Can we use dttime here?
 
 ts_time(time_cut:end)=[];
@@ -87,7 +87,7 @@ ts_timenew=ts_tmp(s).dttime;
 %%%%%% NEEDS TO BE UPDATED EACH YEAR %%%%%%
 % Only 365 days are processed for "recent" files
 % At the beginning of each year, need to re-extract and update "old" files and change "cut" dates
-time_cutnew=find(ts_timenew=='31-Dec-2023'); % 12/31/2023
+time_cutnew=find(ts_timenew=='31-Dec-2024'); % 12/31/2024
 ts_timenew(1:time_cutnew)=[];
 tsnew=ts_tmp(s).mn; tsnew(1:time_cutnew)=[];% Mean of 3x3 box
 tscldnew=ts_tmp(s).bxcld; tscldnew(1:time_cutnew)=[];% Cloud/bad pixels of 3x3 box 

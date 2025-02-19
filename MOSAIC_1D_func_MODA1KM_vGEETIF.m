@@ -9,19 +9,19 @@ clear
 % addpath('/srv/imars-objects/homes/dotis/MATLAB_files/')
 % addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24')
 % Filepaths for seashell
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/')
-addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24')
+addpath('~/MATLAB_files/')
+addpath('~/DB_files/DB_v24')
 
 
 roi='USVI';
 % path_L2='/srv/imars-objects/tpa_pgs/rois2/tampa_bay/L2_MODA_r2022/OC/';
-path_L2='/srv/imars-objects/tpa_pgs/rois2/usvi/L2_A250_NOSLM/';
+path_L2='/srv/pgs/rois2/usvi/L2_A250_NOSLM/';
 
 % path_L3='/srv/imars-objects/tpa_pgs/rois2/tampa_bay/L3_1D_MODA_RRS/OC/';
-path_L3='/srv/imars-objects/tpa_pgs/rois2/usvi/L3_A250_NOSLM/';
+path_L3='/srv/pgs/rois2/usvi/L3_A250_NOSLM/';
 
 % xml_file='/home1/dotis/DB_files/DB_v24/xml_files/map_TB_gom_OC_RRS.xml';
-xml_file='/srv/imars-objects/tpa_pgs/rois2/usvi/map_USVI_A250.xml';
+xml_file='/srv/pgs/rois2/usvi/map_USVI_A250.xml';
 
 
 eval(['flnms_tmp=struct2cell(dir(''' path_L2 '/*.L2''));']) 

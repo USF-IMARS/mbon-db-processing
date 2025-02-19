@@ -1,14 +1,11 @@
-% mosaic_1D_func_vDB.M
-% Written by Dan Otis, September 2018
-% Revised January 2023
-% Function which uses GPT mosaic operator to create daily means of MODA data
-% vDB is to create 1D dashboard files 
-% Current version is GOMdb_v2023
-% GOM version for use with VIIRS-SNPP and MODIS-Aqua data
-% Two product streams: OC, SST, SSTN/4
-% User also selects ROI (FK, FGB, WFS)
-% 1 day time step (daily mosaic)
-% Change xml file(s) to determine output products and projection details
+% RSMPL_C2RCC_PROCESS_S2MSI.M
+% Written by Dan Otis, September 2024
+% Revised January 2025
+% Function which uses GPT mosaic operator to process the C2RCC on S2 MSI data
+% Need xml graph file
+% Add a subset node?
+% Also need to work on file queries/downloads
+% Not currently written as a function, but could be
 
 % TEST
 clear
@@ -22,18 +19,18 @@ rec_files=0; % Number of most recent files to process; Set to zero for all recen
 % function[dummy]=RESMPL_C2RCC_process_S2MSI(roi,roi_2,roi_out,pc,sub,rec_files,sensor)
 
 % Output path
-eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' pc '_' platform '/'';'])
+eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' pc '_' platform '/'';'])
 
 % XML files w/product and projection info
-eval(['xml_file=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/xml_files/' platform '_' pc '_graph.xml'';']) % Need to add sensor
+eval(['xml_file=''~/DB_files/DB_v24/xml_files/' platform '_' pc '_graph.xml'';']) % Need to add sensor
 
 % Input folders (may need to use manifest file
 if sub==0
-eval(['path_L1C=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L1C_' platform '/'';']) % Updated OC files in separate directory
+eval(['path_L1C=''/srv/pgs/rois2/' roi '/L1C_' platform '/'';']) % Updated OC files in separate directory
 end
 
 % if sub==1
-% eval(['path_L2=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
+% eval(['path_L2=''/srv/pgs/rois2/' roi '/L2_' sensor '_sub/'';']) % For GOM only 
 % end
 
 % List input files

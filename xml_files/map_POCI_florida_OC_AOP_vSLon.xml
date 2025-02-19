@@ -1,0 +1,2499 @@
+<graph id="mosaic_PACE_GOM_BGC">
+<version>1.0</version>
+<node id="mosaicNode">
+<operator>Mosaic</operator>
+<sources>
+<sourceProducts>${sourceProducts}</sourceProducts>
+</sources>
+<parameters>
+<variables>
+<variable>
+<name>Rrs_339</name>
+<expression>Rrs_339</expression>
+</variable>
+<variable>
+<name>Rrs_341</name>
+<expression>Rrs_341</expression>
+</variable>
+<variable>
+<name>Rrs_344</name>
+<expression>Rrs_344</expression>
+</variable>
+<variable>
+<name>Rrs_346</name>
+<expression>Rrs_346</expression>
+</variable>
+<variable>
+<name>Rrs_348</name>
+<expression>Rrs_348</expression>
+</variable>
+<variable>
+<name>Rrs_351</name>
+<expression>Rrs_351</expression>
+</variable>
+<variable>
+<name>Rrs_353</name>
+<expression>Rrs_353</expression>
+</variable>
+<variable>
+<name>Rrs_356</name>
+<expression>Rrs_356</expression>
+</variable>
+<variable>
+<name>Rrs_358</name>
+<expression>Rrs_358</expression>
+</variable>
+<variable>
+<name>Rrs_361</name>
+<expression>Rrs_361</expression>
+</variable>
+<variable>
+<name>Rrs_363</name>
+<expression>Rrs_363</expression>
+</variable>
+<variable>
+<name>Rrs_366</name>
+<expression>Rrs_366</expression>
+</variable>
+<variable>
+<name>Rrs_368</name>
+<expression>Rrs_368</expression>
+</variable>
+<variable>
+<name>Rrs_371</name>
+<expression>Rrs_371</expression>
+</variable>
+<variable>
+<name>Rrs_373</name>
+<expression>Rrs_373</expression>
+</variable>
+<variable>
+<name>Rrs_375</name>
+<expression>Rrs_375</expression>
+</variable>
+<variable>
+<name>Rrs_378</name>
+<expression>Rrs_378</expression>
+</variable>
+<variable>
+<name>Rrs_380</name>
+<expression>Rrs_380</expression>
+</variable>
+<variable>
+<name>Rrs_383</name>
+<expression>Rrs_383</expression>
+</variable>
+<variable>
+<name>Rrs_385</name>
+<expression>Rrs_385</expression>
+</variable>
+<variable>
+<name>Rrs_388</name>
+<expression>Rrs_388</expression>
+</variable>
+<variable>
+<name>Rrs_390</name>
+<expression>Rrs_390</expression>
+</variable>
+<variable>
+<name>Rrs_393</name>
+<expression>Rrs_393</expression>
+</variable>
+<variable>
+<name>Rrs_395</name>
+<expression>Rrs_395</expression>
+</variable>
+<variable>
+<name>Rrs_398</name>
+<expression>Rrs_398</expression>
+</variable>
+<variable>
+<name>Rrs_400</name>
+<expression>Rrs_400</expression>
+</variable>
+<variable>
+<name>Rrs_403</name>
+<expression>Rrs_403</expression>
+</variable>
+<variable>
+<name>Rrs_405</name>
+<expression>Rrs_405</expression>
+</variable>
+<variable>
+<name>Rrs_408</name>
+<expression>Rrs_408</expression>
+</variable>
+<variable>
+<name>Rrs_410</name>
+<expression>Rrs_410</expression>
+</variable>
+<variable>
+<name>Rrs_413</name>
+<expression>Rrs_413</expression>
+</variable>
+<variable>
+<name>Rrs_415</name>
+<expression>Rrs_415</expression>
+</variable>
+<variable>
+<name>Rrs_418</name>
+<expression>Rrs_418</expression>
+</variable>
+<variable>
+<name>Rrs_420</name>
+<expression>Rrs_420</expression>
+</variable>
+<variable>
+<name>Rrs_422</name>
+<expression>Rrs_422</expression>
+</variable>
+<variable>
+<name>Rrs_425</name>
+<expression>Rrs_425</expression>
+</variable>
+<variable>
+<name>Rrs_427</name>
+<expression>Rrs_427</expression>
+</variable>
+<variable>
+<name>Rrs_430</name>
+<expression>Rrs_430</expression>
+</variable>
+<variable>
+<name>Rrs_432</name>
+<expression>Rrs_432</expression>
+</variable>
+<variable>
+<name>Rrs_435</name>
+<expression>Rrs_435</expression>
+</variable>
+<variable>
+<name>Rrs_437</name>
+<expression>Rrs_437</expression>
+</variable>
+<variable>
+<name>Rrs_440</name>
+<expression>Rrs_440</expression>
+</variable>
+<variable>
+<name>Rrs_442</name>
+<expression>Rrs_442</expression>
+</variable>
+<variable>
+<name>Rrs_445</name>
+<expression>Rrs_445</expression>
+</variable>
+<variable>
+<name>Rrs_447</name>
+<expression>Rrs_447</expression>
+</variable>
+<variable>
+<name>Rrs_450</name>
+<expression>Rrs_450</expression>
+</variable>
+<variable>
+<name>Rrs_452</name>
+<expression>Rrs_452</expression>
+</variable>
+<variable>
+<name>Rrs_455</name>
+<expression>Rrs_455</expression>
+</variable>
+<variable>
+<name>Rrs_457</name>
+<expression>Rrs_457</expression>
+</variable>
+<variable>
+<name>Rrs_460</name>
+<expression>Rrs_460</expression>
+</variable>
+<variable>
+<name>Rrs_462</name>
+<expression>Rrs_462</expression>
+</variable>
+<variable>
+<name>Rrs_465</name>
+<expression>Rrs_465</expression>
+</variable>
+<variable>
+<name>Rrs_467</name>
+<expression>Rrs_467</expression>
+</variable>
+<variable>
+<name>Rrs_470</name>
+<expression>Rrs_470</expression>
+</variable>
+<variable>
+<name>Rrs_472</name>
+<expression>Rrs_472</expression>
+</variable>
+<variable>
+<name>Rrs_475</name>
+<expression>Rrs_475</expression>
+</variable>
+<variable>
+<name>Rrs_477</name>
+<expression>Rrs_477</expression>
+</variable>
+<variable>
+<name>Rrs_480</name>
+<expression>Rrs_480</expression>
+</variable>
+<variable>
+<name>Rrs_482</name>
+<expression>Rrs_482</expression>
+</variable>
+<variable>
+<name>Rrs_485</name>
+<expression>Rrs_485</expression>
+</variable>
+<variable>
+<name>Rrs_487</name>
+<expression>Rrs_487</expression>
+</variable>
+<variable>
+<name>Rrs_490</name>
+<expression>Rrs_490</expression>
+</variable>
+<variable>
+<name>Rrs_492</name>
+<expression>Rrs_492</expression>
+</variable>
+<variable>
+<name>Rrs_495</name>
+<expression>Rrs_495</expression>
+</variable>
+<variable>
+<name>Rrs_497</name>
+<expression>Rrs_497</expression>
+</variable>
+<variable>
+<name>Rrs_500</name>
+<expression>Rrs_500</expression>
+</variable>
+<variable>
+<name>Rrs_502</name>
+<expression>Rrs_502</expression>
+</variable>
+<variable>
+<name>Rrs_505</name>
+<expression>Rrs_505</expression>
+</variable>
+<variable>
+<name>Rrs_507</name>
+<expression>Rrs_507</expression>
+</variable>
+<variable>
+<name>Rrs_510</name>
+<expression>Rrs_510</expression>
+</variable>
+<variable>
+<name>Rrs_512</name>
+<expression>Rrs_512</expression>
+</variable>
+<variable>
+<name>Rrs_515</name>
+<expression>Rrs_515</expression>
+</variable>
+<variable>
+<name>Rrs_517</name>
+<expression>Rrs_517</expression>
+</variable>
+<variable>
+<name>Rrs_520</name>
+<expression>Rrs_520</expression>
+</variable>
+<variable>
+<name>Rrs_522</name>
+<expression>Rrs_522</expression>
+</variable>
+<variable>
+<name>Rrs_525</name>
+<expression>Rrs_525</expression>
+</variable>
+<variable>
+<name>Rrs_527</name>
+<expression>Rrs_527</expression>
+</variable>
+<variable>
+<name>Rrs_530</name>
+<expression>Rrs_530</expression>
+</variable>
+<variable>
+<name>Rrs_532</name>
+<expression>Rrs_532</expression>
+</variable>
+<variable>
+<name>Rrs_535</name>
+<expression>Rrs_535</expression>
+</variable>
+<variable>
+<name>Rrs_537</name>
+<expression>Rrs_537</expression>
+</variable>
+<variable>
+<name>Rrs_540</name>
+<expression>Rrs_540</expression>
+</variable>
+<variable>
+<name>Rrs_542</name>
+<expression>Rrs_542</expression>
+</variable>
+<variable>
+<name>Rrs_545</name>
+<expression>Rrs_545</expression>
+</variable>
+<variable>
+<name>Rrs_547</name>
+<expression>Rrs_547</expression>
+</variable>
+<variable>
+<name>Rrs_550</name>
+<expression>Rrs_550</expression>
+</variable>
+<variable>
+<name>Rrs_553</name>
+<expression>Rrs_553</expression>
+</variable>
+<variable>
+<name>Rrs_555</name>
+<expression>Rrs_555</expression>
+</variable>
+<variable>
+<name>Rrs_558</name>
+<expression>Rrs_558</expression>
+</variable>
+<variable>
+<name>Rrs_560</name>
+<expression>Rrs_560</expression>
+</variable>
+<variable>
+<name>Rrs_563</name>
+<expression>Rrs_563</expression>
+</variable>
+<variable>
+<name>Rrs_565</name>
+<expression>Rrs_565</expression>
+</variable>
+<variable>
+<name>Rrs_568</name>
+<expression>Rrs_568</expression>
+</variable>
+<variable>
+<name>Rrs_570</name>
+<expression>Rrs_570</expression>
+</variable>
+<variable>
+<name>Rrs_573</name>
+<expression>Rrs_573</expression>
+</variable>
+<variable>
+<name>Rrs_575</name>
+<expression>Rrs_575</expression>
+</variable>
+<variable>
+<name>Rrs_578</name>
+<expression>Rrs_578</expression>
+</variable>
+<variable>
+<name>Rrs_580</name>
+<expression>Rrs_580</expression>
+</variable>
+<variable>
+<name>Rrs_583</name>
+<expression>Rrs_583</expression>
+</variable>
+<variable>
+<name>Rrs_586</name>
+<expression>Rrs_586</expression>
+</variable>
+<variable>
+<name>Rrs_588</name>
+<expression>Rrs_588</expression>
+</variable>
+<variable>
+<name>Rrs_591</name>
+<expression>Rrs_591</expression>
+</variable>
+<variable>
+<name>Rrs_593</name>
+<expression>Rrs_593</expression>
+</variable>
+<variable>
+<name>Rrs_596</name>
+<expression>Rrs_596</expression>
+</variable>
+<variable>
+<name>Rrs_598</name>
+<expression>Rrs_598</expression>
+</variable>
+<variable>
+<name>Rrs_601</name>
+<expression>Rrs_601</expression>
+</variable>
+<variable>
+<name>Rrs_603</name>
+<expression>Rrs_603</expression>
+</variable>
+<variable>
+<name>Rrs_605</name>
+<expression>Rrs_605</expression>
+</variable>
+<variable>
+<name>Rrs_608</name>
+<expression>Rrs_608</expression>
+</variable>
+<variable>
+<name>Rrs_610</name>
+<expression>Rrs_610</expression>
+</variable>
+<variable>
+<name>Rrs_613</name>
+<expression>Rrs_613</expression>
+</variable>
+<variable>
+<name>Rrs_615</name>
+<expression>Rrs_615</expression>
+</variable>
+<variable>
+<name>Rrs_618</name>
+<expression>Rrs_618</expression>
+</variable>
+<variable>
+<name>Rrs_620</name>
+<expression>Rrs_620</expression>
+</variable>
+<variable>
+<name>Rrs_623</name>
+<expression>Rrs_623</expression>
+</variable>
+<variable>
+<name>Rrs_625</name>
+<expression>Rrs_625</expression>
+</variable>
+<variable>
+<name>Rrs_627</name>
+<expression>Rrs_627</expression>
+</variable>
+<variable>
+<name>Rrs_630</name>
+<expression>Rrs_630</expression>
+</variable>
+<variable>
+<name>Rrs_632</name>
+<expression>Rrs_632</expression>
+</variable>
+<variable>
+<name>Rrs_635</name>
+<expression>Rrs_635</expression>
+</variable>
+<variable>
+<name>Rrs_637</name>
+<expression>Rrs_637</expression>
+</variable>
+<variable>
+<name>Rrs_640</name>
+<expression>Rrs_640</expression>
+</variable>
+<variable>
+<name>Rrs_641</name>
+<expression>Rrs_641</expression>
+</variable>
+<variable>
+<name>Rrs_642</name>
+<expression>Rrs_642</expression>
+</variable>
+<variable>
+<name>Rrs_643</name>
+<expression>Rrs_643</expression>
+</variable>
+<variable>
+<name>Rrs_645</name>
+<expression>Rrs_645</expression>
+</variable>
+<variable>
+<name>Rrs_646</name>
+<expression>Rrs_646</expression>
+</variable>
+<variable>
+<name>Rrs_647</name>
+<expression>Rrs_647</expression>
+</variable>
+<variable>
+<name>Rrs_648</name>
+<expression>Rrs_648</expression>
+</variable>
+<variable>
+<name>Rrs_650</name>
+<expression>Rrs_650</expression>
+</variable>
+<variable>
+<name>Rrs_651</name>
+<expression>Rrs_651</expression>
+</variable>
+<variable>
+<name>Rrs_652</name>
+<expression>Rrs_652</expression>
+</variable>
+<variable>
+<name>Rrs_653</name>
+<expression>Rrs_653</expression>
+</variable>
+<variable>
+<name>Rrs_655</name>
+<expression>Rrs_655</expression>
+</variable>
+<variable>
+<name>Rrs_656</name>
+<expression>Rrs_656</expression>
+</variable>
+<variable>
+<name>Rrs_657</name>
+<expression>Rrs_657</expression>
+</variable>
+<variable>
+<name>Rrs_658</name>
+<expression>Rrs_658</expression>
+</variable>
+<variable>
+<name>Rrs_660</name>
+<expression>Rrs_660</expression>
+</variable>
+<variable>
+<name>Rrs_661</name>
+<expression>Rrs_661</expression>
+</variable>
+<variable>
+<name>Rrs_662</name>
+<expression>Rrs_662</expression>
+</variable>
+<variable>
+<name>Rrs_663</name>
+<expression>Rrs_663</expression>
+</variable>
+<variable>
+<name>Rrs_665</name>
+<expression>Rrs_665</expression>
+</variable>
+<variable>
+<name>Rrs_666</name>
+<expression>Rrs_666</expression>
+</variable>
+<variable>
+<name>Rrs_667</name>
+<expression>Rrs_667</expression>
+</variable>
+<variable>
+<name>Rrs_668</name>
+<expression>Rrs_668</expression>
+</variable>
+<variable>
+<name>Rrs_670</name>
+<expression>Rrs_670</expression>
+</variable>
+<variable>
+<name>Rrs_671</name>
+<expression>Rrs_671</expression>
+</variable>
+<variable>
+<name>Rrs_672</name>
+<expression>Rrs_672</expression>
+</variable>
+<variable>
+<name>Rrs_673</name>
+<expression>Rrs_673</expression>
+</variable>
+<variable>
+<name>Rrs_675</name>
+<expression>Rrs_675</expression>
+</variable>
+<variable>
+<name>Rrs_676</name>
+<expression>Rrs_676</expression>
+</variable>
+<variable>
+<name>Rrs_677</name>
+<expression>Rrs_677</expression>
+</variable>
+<variable>
+<name>Rrs_678</name>
+<expression>Rrs_678</expression>
+</variable>
+<variable>
+<name>Rrs_679</name>
+<expression>Rrs_679</expression>
+</variable>
+<variable>
+<name>Rrs_681</name>
+<expression>Rrs_681</expression>
+</variable>
+<variable>
+<name>Rrs_682</name>
+<expression>Rrs_682</expression>
+</variable>
+<variable>
+<name>Rrs_683</name>
+<expression>Rrs_683</expression>
+</variable>
+<variable>
+<name>Rrs_684</name>
+<expression>Rrs_684</expression>
+</variable>
+<variable>
+<name>Rrs_686</name>
+<expression>Rrs_686</expression>
+</variable>
+<variable>
+<name>Rrs_687</name>
+<expression>Rrs_687</expression>
+</variable>
+<variable>
+<name>Rrs_688</name>
+<expression>Rrs_688</expression>
+</variable>
+<variable>
+<name>Rrs_689</name>
+<expression>Rrs_689</expression>
+</variable>
+<variable>
+<name>Rrs_691</name>
+<expression>Rrs_691</expression>
+</variable>
+<variable>
+<name>Rrs_693</name>
+<expression>Rrs_693</expression>
+</variable>
+<variable>
+<name>Rrs_694</name>
+<expression>Rrs_694</expression>
+</variable>
+<variable>
+<name>Rrs_696</name>
+<expression>Rrs_696</expression>
+</variable>
+<variable>
+<name>Rrs_697</name>
+<expression>Rrs_697</expression>
+</variable>
+<variable>
+<name>Rrs_698</name>
+<expression>Rrs_698</expression>
+</variable>
+<variable>
+<name>Rrs_699</name>
+<expression>Rrs_699</expression>
+</variable>
+<variable>
+<name>Rrs_701</name>
+<expression>Rrs_701</expression>
+</variable>
+<variable>
+<name>Rrs_702</name>
+<expression>Rrs_702</expression>
+</variable>
+<variable>
+<name>Rrs_703</name>
+<expression>Rrs_703</expression>
+</variable>
+<variable>
+<name>avw</name>
+<expression>avw</expression>
+</variable>
+<variable>
+<name>l2_flags</name>
+<expression>l2_flags</expression>
+</variable>
+</variables>
+<conditions>
+<condition>
+<name>not_STRAYLIGHT</name>
+<expression>NOT l2_flags.STRAYLIGHT</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_LAND</name>
+<expression>NOT l2_flags.LAND</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_CLDICE</name>
+<expression>NOT l2_flags.CLDICE</expression>
+<output>false</output>
+</condition>
+<condition>
+<name>not_HIGLINT</name>
+<expression>NOT l2_flags.HIGLINT</expression>
+<output>false</output>
+</condition>
+</conditions>
+<combine>AND</combine>
+<crs>
+PROJCS["Equidistant_Cylindrical / World Geodetic System 1984",
+GEOGCS["World Geodetic System 1984",
+DATUM["World Geodetic System 1984",
+SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]],
+AUTHORITY["EPSG","6326"]],
+PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]],
+UNIT["degree", 0.017453292519943295],
+AXIS["Geodetic longitude", EAST],
+AXIS["Geodetic latitude", NORTH]],
+PROJECTION["Equidistant_Cylindrical"],
+PARAMETER["central_meridian", 0.0],
+PARAMETER["latitude_of_origin", 0.0],
+PARAMETER["standard_parallel_1", 0.0],
+PARAMETER["false_easting", 0.0],
+PARAMETER["false_northing", 0.0],
+UNIT["m", 1.0],
+AXIS["Easting", EAST],
+AXIS["Northing", NORTH]]
+</crs>
+<orthorectify>false</orthorectify>
+<elevationModelName>GETASSE30</elevationModelName>
+<resampling>Nearest</resampling>
+<westBound>-85.0</westBound>
+<northBound>28.0</northBound>
+<eastBound>-78.5</eastBound>
+<southBound>24.0</southBound>
+<pixelSizeX>1011.7</pixelSizeX>
+<pixelSizeY>1011.7</pixelSizeY>
+</parameters>
+</node>
+<node id="selectBandsNode">
+<operator>BandMaths</operator>
+<sources>
+<sourceProducts>mosaicNode</sourceProducts>
+</sources>
+<parameters>
+<targetBands>
+<targetBand>
+<name>Rrs_339</name>
+<expression>Rrs_339</expression>
+<description>Remote sensing reflectance at 339nm</description>
+<type>float32</type>
+<validExpression>(Rrs_339 > -0.01 and Rrs_339 &lt; 0.2 and Rrs_339 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>339.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_341</name>
+<expression>Rrs_341</expression>
+<description>Remote sensing reflectance at 341nm</description>
+<type>float32</type>
+<validExpression>(Rrs_341 > -0.01 and Rrs_341 &lt; 0.2 and Rrs_341 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>341.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_344</name>
+<expression>Rrs_344</expression>
+<description>Remote sensing reflectance at 344nm</description>
+<type>float32</type>
+<validExpression>(Rrs_344 > -0.01 and Rrs_344 &lt; 0.2 and Rrs_344 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>344.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_346</name>
+<expression>Rrs_346</expression>
+<description>Remote sensing reflectance at 346nm</description>
+<type>float32</type>
+<validExpression>(Rrs_346 > -0.01 and Rrs_346 &lt; 0.2 and Rrs_346 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>346.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_348</name>
+<expression>Rrs_348</expression>
+<description>Remote sensing reflectance at 348nm</description>
+<type>float32</type>
+<validExpression>(Rrs_348 > -0.01 and Rrs_348 &lt; 0.2 and Rrs_348 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>348.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_351</name>
+<expression>Rrs_351</expression>
+<description>Remote sensing reflectance at 351nm</description>
+<type>float32</type>
+<validExpression>(Rrs_351 > -0.01 and Rrs_351 &lt; 0.2 and Rrs_351 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>351.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_353</name>
+<expression>Rrs_353</expression>
+<description>Remote sensing reflectance at 353nm</description>
+<type>float32</type>
+<validExpression>(Rrs_353 > -0.01 and Rrs_353 &lt; 0.2 and Rrs_353 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>353.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_356</name>
+<expression>Rrs_356</expression>
+<description>Remote sensing reflectance at 356nm</description>
+<type>float32</type>
+<validExpression>(Rrs_356 > -0.01 and Rrs_356 &lt; 0.2 and Rrs_356 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>356.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_358</name>
+<expression>Rrs_358</expression>
+<description>Remote sensing reflectance at 358nm</description>
+<type>float32</type>
+<validExpression>(Rrs_358 > -0.01 and Rrs_358 &lt; 0.2 and Rrs_358 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>358.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_361</name>
+<expression>Rrs_361</expression>
+<description>Remote sensing reflectance at 361nm</description>
+<type>float32</type>
+<validExpression>(Rrs_361 > -0.01 and Rrs_361 &lt; 0.2 and Rrs_361 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>361.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_363</name>
+<expression>Rrs_363</expression>
+<description>Remote sensing reflectance at 363nm</description>
+<type>float32</type>
+<validExpression>(Rrs_363 > -0.01 and Rrs_363 &lt; 0.2 and Rrs_363 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>363.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_366</name>
+<expression>Rrs_366</expression>
+<description>Remote sensing reflectance at 366nm</description>
+<type>float32</type>
+<validExpression>(Rrs_366 > -0.01 and Rrs_366 &lt; 0.2 and Rrs_366 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>366.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_368</name>
+<expression>Rrs_368</expression>
+<description>Remote sensing reflectance at 368nm</description>
+<type>float32</type>
+<validExpression>(Rrs_368 > -0.01 and Rrs_368 &lt; 0.2 and Rrs_368 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>368.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_371</name>
+<expression>Rrs_371</expression>
+<description>Remote sensing reflectance at 371nm</description>
+<type>float32</type>
+<validExpression>(Rrs_371 > -0.01 and Rrs_371 &lt; 0.2 and Rrs_371 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>371.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_373</name>
+<expression>Rrs_373</expression>
+<description>Remote sensing reflectance at 373nm</description>
+<type>float32</type>
+<validExpression>(Rrs_373 > -0.01 and Rrs_373 &lt; 0.2 and Rrs_373 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>373.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_375</name>
+<expression>Rrs_375</expression>
+<description>Remote sensing reflectance at 375nm</description>
+<type>float32</type>
+<validExpression>(Rrs_375 > -0.01 and Rrs_375 &lt; 0.2 and Rrs_375 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>375.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_378</name>
+<expression>Rrs_378</expression>
+<description>Remote sensing reflectance at 378nm</description>
+<type>float32</type>
+<validExpression>(Rrs_378 > -0.01 and Rrs_378 &lt; 0.2 and Rrs_378 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>378.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_380</name>
+<expression>Rrs_380</expression>
+<description>Remote sensing reflectance at 380nm</description>
+<type>float32</type>
+<validExpression>(Rrs_380 > -0.01 and Rrs_380 &lt; 0.2 and Rrs_380 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>380.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_383</name>
+<expression>Rrs_383</expression>
+<description>Remote sensing reflectance at 383nm</description>
+<type>float32</type>
+<validExpression>(Rrs_383 > -0.01 and Rrs_383 &lt; 0.2 and Rrs_383 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>383.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_385</name>
+<expression>Rrs_385</expression>
+<description>Remote sensing reflectance at 385nm</description>
+<type>float32</type>
+<validExpression>(Rrs_385 > -0.01 and Rrs_385 &lt; 0.2 and Rrs_385 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>385.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_388</name>
+<expression>Rrs_388</expression>
+<description>Remote sensing reflectance at 388nm</description>
+<type>float32</type>
+<validExpression>(Rrs_388 > -0.01 and Rrs_388 &lt; 0.2 and Rrs_388 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>388.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_390</name>
+<expression>Rrs_390</expression>
+<description>Remote sensing reflectance at 390nm</description>
+<type>float32</type>
+<validExpression>(Rrs_390 > -0.01 and Rrs_390 &lt; 0.2 and Rrs_390 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>390.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_393</name>
+<expression>Rrs_393</expression>
+<description>Remote sensing reflectance at 393nm</description>
+<type>float32</type>
+<validExpression>(Rrs_393 > -0.01 and Rrs_393 &lt; 0.2 and Rrs_393 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>393.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_395</name>
+<expression>Rrs_395</expression>
+<description>Remote sensing reflectance at 395nm</description>
+<type>float32</type>
+<validExpression>(Rrs_395 > -0.01 and Rrs_395 &lt; 0.2 and Rrs_395 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>395.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_398</name>
+<expression>Rrs_398</expression>
+<description>Remote sensing reflectance at 398nm</description>
+<type>float32</type>
+<validExpression>(Rrs_398 > -0.01 and Rrs_398 &lt; 0.2 and Rrs_398 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>398.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_400</name>
+<expression>Rrs_400</expression>
+<description>Remote sensing reflectance at 400nm</description>
+<type>float32</type>
+<validExpression>(Rrs_400 > -0.01 and Rrs_400 &lt; 0.2 and Rrs_400 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>400.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_403</name>
+<expression>Rrs_403</expression>
+<description>Remote sensing reflectance at 403nm</description>
+<type>float32</type>
+<validExpression>(Rrs_403 > -0.01 and Rrs_403 &lt; 0.2 and Rrs_403 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>403.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_405</name>
+<expression>Rrs_405</expression>
+<description>Remote sensing reflectance at 405nm</description>
+<type>float32</type>
+<validExpression>(Rrs_405 > -0.01 and Rrs_405 &lt; 0.2 and Rrs_405 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>405.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_408</name>
+<expression>Rrs_408</expression>
+<description>Remote sensing reflectance at 408nm</description>
+<type>float32</type>
+<validExpression>(Rrs_408 > -0.01 and Rrs_408 &lt; 0.2 and Rrs_408 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>408.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_410</name>
+<expression>Rrs_410</expression>
+<description>Remote sensing reflectance at 410nm</description>
+<type>float32</type>
+<validExpression>(Rrs_410 > -0.01 and Rrs_410 &lt; 0.2 and Rrs_410 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>410.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_413</name>
+<expression>Rrs_413</expression>
+<description>Remote sensing reflectance at 413nm</description>
+<type>float32</type>
+<validExpression>(Rrs_413 > -0.01 and Rrs_413 &lt; 0.2 and Rrs_413 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>413.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_415</name>
+<expression>Rrs_415</expression>
+<description>Remote sensing reflectance at 415nm</description>
+<type>float32</type>
+<validExpression>(Rrs_415 > -0.01 and Rrs_415 &lt; 0.2 and Rrs_415 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>415.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_418</name>
+<expression>Rrs_418</expression>
+<description>Remote sensing reflectance at 418nm</description>
+<type>float32</type>
+<validExpression>(Rrs_418 > -0.01 and Rrs_418 &lt; 0.2 and Rrs_418 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>418.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_420</name>
+<expression>Rrs_420</expression>
+<description>Remote sensing reflectance at 420nm</description>
+<type>float32</type>
+<validExpression>(Rrs_420 > -0.01 and Rrs_420 &lt; 0.2 and Rrs_420 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>420.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_422</name>
+<expression>Rrs_422</expression>
+<description>Remote sensing reflectance at 422nm</description>
+<type>float32</type>
+<validExpression>(Rrs_422 > -0.01 and Rrs_422 &lt; 0.2 and Rrs_422 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>422.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_425</name>
+<expression>Rrs_425</expression>
+<description>Remote sensing reflectance at 425nm</description>
+<type>float32</type>
+<validExpression>(Rrs_425 > -0.01 and Rrs_425 &lt; 0.2 and Rrs_425 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>425.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_427</name>
+<expression>Rrs_427</expression>
+<description>Remote sensing reflectance at 427nm</description>
+<type>float32</type>
+<validExpression>(Rrs_427 > -0.01 and Rrs_427 &lt; 0.2 and Rrs_427 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>427.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_430</name>
+<expression>Rrs_430</expression>
+<description>Remote sensing reflectance at 430nm</description>
+<type>float32</type>
+<validExpression>(Rrs_430 > -0.01 and Rrs_430 &lt; 0.2 and Rrs_430 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>430.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_432</name>
+<expression>Rrs_432</expression>
+<description>Remote sensing reflectance at 432nm</description>
+<type>float32</type>
+<validExpression>(Rrs_432 > -0.01 and Rrs_432 &lt; 0.2 and Rrs_432 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>432.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_435</name>
+<expression>Rrs_435</expression>
+<description>Remote sensing reflectance at 435nm</description>
+<type>float32</type>
+<validExpression>(Rrs_435 > -0.01 and Rrs_435 &lt; 0.2 and Rrs_435 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>435.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_437</name>
+<expression>Rrs_437</expression>
+<description>Remote sensing reflectance at 437nm</description>
+<type>float32</type>
+<validExpression>(Rrs_437 > -0.01 and Rrs_437 &lt; 0.2 and Rrs_437 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>437.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_440</name>
+<expression>Rrs_440</expression>
+<description>Remote sensing reflectance at 440nm</description>
+<type>float32</type>
+<validExpression>(Rrs_440 > -0.01 and Rrs_440 &lt; 0.2 and Rrs_440 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>440.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_442</name>
+<expression>Rrs_442</expression>
+<description>Remote sensing reflectance at 442nm</description>
+<type>float32</type>
+<validExpression>(Rrs_442 > -0.01 and Rrs_442 &lt; 0.2 and Rrs_442 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>442.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_445</name>
+<expression>Rrs_445</expression>
+<description>Remote sensing reflectance at 445nm</description>
+<type>float32</type>
+<validExpression>(Rrs_445 > -0.01 and Rrs_445 &lt; 0.2 and Rrs_445 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>445.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_447</name>
+<expression>Rrs_447</expression>
+<description>Remote sensing reflectance at 447nm</description>
+<type>float32</type>
+<validExpression>(Rrs_447 > -0.01 and Rrs_447 &lt; 0.2 and Rrs_447 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>447.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_450</name>
+<expression>Rrs_450</expression>
+<description>Remote sensing reflectance at 450nm</description>
+<type>float32</type>
+<validExpression>(Rrs_450 > -0.01 and Rrs_450 &lt; 0.2 and Rrs_450 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>450.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_452</name>
+<expression>Rrs_452</expression>
+<description>Remote sensing reflectance at 452nm</description>
+<type>float32</type>
+<validExpression>(Rrs_452 > -0.01 and Rrs_452 &lt; 0.2 and Rrs_452 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>452.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_455</name>
+<expression>Rrs_455</expression>
+<description>Remote sensing reflectance at 455nm</description>
+<type>float32</type>
+<validExpression>(Rrs_455 > -0.01 and Rrs_455 &lt; 0.2 and Rrs_455 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>455.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_457</name>
+<expression>Rrs_457</expression>
+<description>Remote sensing reflectance at 457nm</description>
+<type>float32</type>
+<validExpression>(Rrs_457 > -0.01 and Rrs_457 &lt; 0.2 and Rrs_457 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>457.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_460</name>
+<expression>Rrs_460</expression>
+<description>Remote sensing reflectance at 460nm</description>
+<type>float32</type>
+<validExpression>(Rrs_460 > -0.01 and Rrs_460 &lt; 0.2 and Rrs_460 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>460.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_462</name>
+<expression>Rrs_462</expression>
+<description>Remote sensing reflectance at 462nm</description>
+<type>float32</type>
+<validExpression>(Rrs_462 > -0.01 and Rrs_462 &lt; 0.2 and Rrs_462 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>462.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_465</name>
+<expression>Rrs_465</expression>
+<description>Remote sensing reflectance at 465nm</description>
+<type>float32</type>
+<validExpression>(Rrs_465 > -0.01 and Rrs_465 &lt; 0.2 and Rrs_465 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>465.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_467</name>
+<expression>Rrs_467</expression>
+<description>Remote sensing reflectance at 467nm</description>
+<type>float32</type>
+<validExpression>(Rrs_467 > -0.01 and Rrs_467 &lt; 0.2 and Rrs_467 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>467.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_470</name>
+<expression>Rrs_470</expression>
+<description>Remote sensing reflectance at 470nm</description>
+<type>float32</type>
+<validExpression>(Rrs_470 > -0.01 and Rrs_470 &lt; 0.2 and Rrs_470 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>470.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_472</name>
+<expression>Rrs_472</expression>
+<description>Remote sensing reflectance at 472nm</description>
+<type>float32</type>
+<validExpression>(Rrs_472 > -0.01 and Rrs_472 &lt; 0.2 and Rrs_472 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>472.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_475</name>
+<expression>Rrs_475</expression>
+<description>Remote sensing reflectance at 475nm</description>
+<type>float32</type>
+<validExpression>(Rrs_475 > -0.01 and Rrs_475 &lt; 0.2 and Rrs_475 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>475.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_477</name>
+<expression>Rrs_477</expression>
+<description>Remote sensing reflectance at 477nm</description>
+<type>float32</type>
+<validExpression>(Rrs_477 > -0.01 and Rrs_477 &lt; 0.2 and Rrs_477 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>477.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_480</name>
+<expression>Rrs_480</expression>
+<description>Remote sensing reflectance at 480nm</description>
+<type>float32</type>
+<validExpression>(Rrs_480 > -0.01 and Rrs_480 &lt; 0.2 and Rrs_480 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>480.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_482</name>
+<expression>Rrs_482</expression>
+<description>Remote sensing reflectance at 482nm</description>
+<type>float32</type>
+<validExpression>(Rrs_482 > -0.01 and Rrs_482 &lt; 0.2 and Rrs_482 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>482.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_485</name>
+<expression>Rrs_485</expression>
+<description>Remote sensing reflectance at 485nm</description>
+<type>float32</type>
+<validExpression>(Rrs_485 > -0.01 and Rrs_485 &lt; 0.2 and Rrs_485 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>485.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_487</name>
+<expression>Rrs_487</expression>
+<description>Remote sensing reflectance at 487nm</description>
+<type>float32</type>
+<validExpression>(Rrs_487 > -0.01 and Rrs_487 &lt; 0.2 and Rrs_487 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>487.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_490</name>
+<expression>Rrs_490</expression>
+<description>Remote sensing reflectance at 490nm</description>
+<type>float32</type>
+<validExpression>(Rrs_490 > -0.01 and Rrs_490 &lt; 0.2 and Rrs_490 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>490.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_492</name>
+<expression>Rrs_492</expression>
+<description>Remote sensing reflectance at 492nm</description>
+<type>float32</type>
+<validExpression>(Rrs_492 > -0.01 and Rrs_492 &lt; 0.2 and Rrs_492 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>492.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_495</name>
+<expression>Rrs_495</expression>
+<description>Remote sensing reflectance at 495nm</description>
+<type>float32</type>
+<validExpression>(Rrs_495 > -0.01 and Rrs_495 &lt; 0.2 and Rrs_495 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>495.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_497</name>
+<expression>Rrs_497</expression>
+<description>Remote sensing reflectance at 497nm</description>
+<type>float32</type>
+<validExpression>(Rrs_497 > -0.01 and Rrs_497 &lt; 0.2 and Rrs_497 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>497.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_500</name>
+<expression>Rrs_500</expression>
+<description>Remote sensing reflectance at 500nm</description>
+<type>float32</type>
+<validExpression>(Rrs_500 > -0.01 and Rrs_500 &lt; 0.2 and Rrs_500 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>500.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_502</name>
+<expression>Rrs_502</expression>
+<description>Remote sensing reflectance at 502nm</description>
+<type>float32</type>
+<validExpression>(Rrs_502 > -0.01 and Rrs_502 &lt; 0.2 and Rrs_502 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>502.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_505</name>
+<expression>Rrs_505</expression>
+<description>Remote sensing reflectance at 505nm</description>
+<type>float32</type>
+<validExpression>(Rrs_505 > -0.01 and Rrs_505 &lt; 0.2 and Rrs_505 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>505.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_507</name>
+<expression>Rrs_507</expression>
+<description>Remote sensing reflectance at 507nm</description>
+<type>float32</type>
+<validExpression>(Rrs_507 > -0.01 and Rrs_507 &lt; 0.2 and Rrs_507 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>507.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_510</name>
+<expression>Rrs_510</expression>
+<description>Remote sensing reflectance at 510nm</description>
+<type>float32</type>
+<validExpression>(Rrs_510 > -0.01 and Rrs_510 &lt; 0.2 and Rrs_510 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>510.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_512</name>
+<expression>Rrs_512</expression>
+<description>Remote sensing reflectance at 512nm</description>
+<type>float32</type>
+<validExpression>(Rrs_512 > -0.01 and Rrs_512 &lt; 0.2 and Rrs_512 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>512.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_515</name>
+<expression>Rrs_515</expression>
+<description>Remote sensing reflectance at 515nm</description>
+<type>float32</type>
+<validExpression>(Rrs_515 > -0.01 and Rrs_515 &lt; 0.2 and Rrs_515 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>515.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_517</name>
+<expression>Rrs_517</expression>
+<description>Remote sensing reflectance at 517nm</description>
+<type>float32</type>
+<validExpression>(Rrs_517 > -0.01 and Rrs_517 &lt; 0.2 and Rrs_517 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>517.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_520</name>
+<expression>Rrs_520</expression>
+<description>Remote sensing reflectance at 520nm</description>
+<type>float32</type>
+<validExpression>(Rrs_520 > -0.01 and Rrs_520 &lt; 0.2 and Rrs_520 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>520.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_522</name>
+<expression>Rrs_522</expression>
+<description>Remote sensing reflectance at 522nm</description>
+<type>float32</type>
+<validExpression>(Rrs_522 > -0.01 and Rrs_522 &lt; 0.2 and Rrs_522 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>522.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_525</name>
+<expression>Rrs_525</expression>
+<description>Remote sensing reflectance at 525nm</description>
+<type>float32</type>
+<validExpression>(Rrs_525 > -0.01 and Rrs_525 &lt; 0.2 and Rrs_525 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>525.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_527</name>
+<expression>Rrs_527</expression>
+<description>Remote sensing reflectance at 527nm</description>
+<type>float32</type>
+<validExpression>(Rrs_527 > -0.01 and Rrs_527 &lt; 0.2 and Rrs_527 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>527.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_530</name>
+<expression>Rrs_530</expression>
+<description>Remote sensing reflectance at 530nm</description>
+<type>float32</type>
+<validExpression>(Rrs_530 > -0.01 and Rrs_530 &lt; 0.2 and Rrs_530 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>530.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_532</name>
+<expression>Rrs_532</expression>
+<description>Remote sensing reflectance at 532nm</description>
+<type>float32</type>
+<validExpression>(Rrs_532 > -0.01 and Rrs_532 &lt; 0.2 and Rrs_532 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>532.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_535</name>
+<expression>Rrs_535</expression>
+<description>Remote sensing reflectance at 535nm</description>
+<type>float32</type>
+<validExpression>(Rrs_535 > -0.01 and Rrs_535 &lt; 0.2 and Rrs_535 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>535.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_537</name>
+<expression>Rrs_537</expression>
+<description>Remote sensing reflectance at 537nm</description>
+<type>float32</type>
+<validExpression>(Rrs_537 > -0.01 and Rrs_537 &lt; 0.2 and Rrs_537 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>537.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_540</name>
+<expression>Rrs_540</expression>
+<description>Remote sensing reflectance at 540nm</description>
+<type>float32</type>
+<validExpression>(Rrs_540 > -0.01 and Rrs_540 &lt; 0.2 and Rrs_540 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>540.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_542</name>
+<expression>Rrs_542</expression>
+<description>Remote sensing reflectance at 542nm</description>
+<type>float32</type>
+<validExpression>(Rrs_542 > -0.01 and Rrs_542 &lt; 0.2 and Rrs_542 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>542.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_545</name>
+<expression>Rrs_545</expression>
+<description>Remote sensing reflectance at 545nm</description>
+<type>float32</type>
+<validExpression>(Rrs_545 > -0.01 and Rrs_545 &lt; 0.2 and Rrs_545 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>545.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_547</name>
+<expression>Rrs_547</expression>
+<description>Remote sensing reflectance at 547nm</description>
+<type>float32</type>
+<validExpression>(Rrs_547 > -0.01 and Rrs_547 &lt; 0.2 and Rrs_547 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>547.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_550</name>
+<expression>Rrs_550</expression>
+<description>Remote sensing reflectance at 550nm</description>
+<type>float32</type>
+<validExpression>(Rrs_550 > -0.01 and Rrs_550 &lt; 0.2 and Rrs_550 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>550.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_553</name>
+<expression>Rrs_553</expression>
+<description>Remote sensing reflectance at 553nm</description>
+<type>float32</type>
+<validExpression>(Rrs_553 > -0.01 and Rrs_553 &lt; 0.2 and Rrs_553 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>553.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_555</name>
+<expression>Rrs_555</expression>
+<description>Remote sensing reflectance at 555nm</description>
+<type>float32</type>
+<validExpression>(Rrs_555 > -0.01 and Rrs_555 &lt; 0.2 and Rrs_555 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>555.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_558</name>
+<expression>Rrs_558</expression>
+<description>Remote sensing reflectance at 558nm</description>
+<type>float32</type>
+<validExpression>(Rrs_558 > -0.01 and Rrs_558 &lt; 0.2 and Rrs_558 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>558.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_560</name>
+<expression>Rrs_560</expression>
+<description>Remote sensing reflectance at 560nm</description>
+<type>float32</type>
+<validExpression>(Rrs_560 > -0.01 and Rrs_560 &lt; 0.2 and Rrs_560 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>560.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_563</name>
+<expression>Rrs_563</expression>
+<description>Remote sensing reflectance at 563nm</description>
+<type>float32</type>
+<validExpression>(Rrs_563 > -0.01 and Rrs_563 &lt; 0.2 and Rrs_563 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>563.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_565</name>
+<expression>Rrs_565</expression>
+<description>Remote sensing reflectance at 565nm</description>
+<type>float32</type>
+<validExpression>(Rrs_565 > -0.01 and Rrs_565 &lt; 0.2 and Rrs_565 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>565.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_568</name>
+<expression>Rrs_568</expression>
+<description>Remote sensing reflectance at 568nm</description>
+<type>float32</type>
+<validExpression>(Rrs_568 > -0.01 and Rrs_568 &lt; 0.2 and Rrs_568 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>568.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_570</name>
+<expression>Rrs_570</expression>
+<description>Remote sensing reflectance at 570nm</description>
+<type>float32</type>
+<validExpression>(Rrs_570 > -0.01 and Rrs_570 &lt; 0.2 and Rrs_570 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>570.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_573</name>
+<expression>Rrs_573</expression>
+<description>Remote sensing reflectance at 573nm</description>
+<type>float32</type>
+<validExpression>(Rrs_573 > -0.01 and Rrs_573 &lt; 0.2 and Rrs_573 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>573.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_575</name>
+<expression>Rrs_575</expression>
+<description>Remote sensing reflectance at 575nm</description>
+<type>float32</type>
+<validExpression>(Rrs_575 > -0.01 and Rrs_575 &lt; 0.2 and Rrs_575 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>575.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_578</name>
+<expression>Rrs_578</expression>
+<description>Remote sensing reflectance at 578nm</description>
+<type>float32</type>
+<validExpression>(Rrs_578 > -0.01 and Rrs_578 &lt; 0.2 and Rrs_578 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>578.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_580</name>
+<expression>Rrs_580</expression>
+<description>Remote sensing reflectance at 580nm</description>
+<type>float32</type>
+<validExpression>(Rrs_580 > -0.01 and Rrs_580 &lt; 0.2 and Rrs_580 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>580.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_583</name>
+<expression>Rrs_583</expression>
+<description>Remote sensing reflectance at 583nm</description>
+<type>float32</type>
+<validExpression>(Rrs_583 > -0.01 and Rrs_583 &lt; 0.2 and Rrs_583 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>583.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_586</name>
+<expression>Rrs_586</expression>
+<description>Remote sensing reflectance at 586nm</description>
+<type>float32</type>
+<validExpression>(Rrs_586 > -0.01 and Rrs_586 &lt; 0.2 and Rrs_586 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>586.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_588</name>
+<expression>Rrs_588</expression>
+<description>Remote sensing reflectance at 588nm</description>
+<type>float32</type>
+<validExpression>(Rrs_588 > -0.01 and Rrs_588 &lt; 0.2 and Rrs_588 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>588.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_591</name>
+<expression>Rrs_591</expression>
+<description>Remote sensing reflectance at 591nm</description>
+<type>float32</type>
+<validExpression>(Rrs_591 > -0.01 and Rrs_591 &lt; 0.2 and Rrs_591 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>591.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_593</name>
+<expression>Rrs_593</expression>
+<description>Remote sensing reflectance at 593nm</description>
+<type>float32</type>
+<validExpression>(Rrs_593 > -0.01 and Rrs_593 &lt; 0.2 and Rrs_593 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>593.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_596</name>
+<expression>Rrs_596</expression>
+<description>Remote sensing reflectance at 596nm</description>
+<type>float32</type>
+<validExpression>(Rrs_596 > -0.01 and Rrs_596 &lt; 0.2 and Rrs_596 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>596.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_598</name>
+<expression>Rrs_598</expression>
+<description>Remote sensing reflectance at 598nm</description>
+<type>float32</type>
+<validExpression>(Rrs_598 > -0.01 and Rrs_598 &lt; 0.2 and Rrs_598 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>598.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_601</name>
+<expression>Rrs_601</expression>
+<description>Remote sensing reflectance at 601nm</description>
+<type>float32</type>
+<validExpression>(Rrs_601 > -0.01 and Rrs_601 &lt; 0.2 and Rrs_601 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>601.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_603</name>
+<expression>Rrs_603</expression>
+<description>Remote sensing reflectance at 603nm</description>
+<type>float32</type>
+<validExpression>(Rrs_603 > -0.01 and Rrs_603 &lt; 0.2 and Rrs_603 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>603.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_605</name>
+<expression>Rrs_605</expression>
+<description>Remote sensing reflectance at 605nm</description>
+<type>float32</type>
+<validExpression>(Rrs_605 > -0.01 and Rrs_605 &lt; 0.2 and Rrs_605 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>605.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_608</name>
+<expression>Rrs_608</expression>
+<description>Remote sensing reflectance at 608nm</description>
+<type>float32</type>
+<validExpression>(Rrs_608 > -0.01 and Rrs_608 &lt; 0.2 and Rrs_608 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>608.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_610</name>
+<expression>Rrs_610</expression>
+<description>Remote sensing reflectance at 610nm</description>
+<type>float32</type>
+<validExpression>(Rrs_610 > -0.01 and Rrs_610 &lt; 0.2 and Rrs_610 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>610.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_613</name>
+<expression>Rrs_613</expression>
+<description>Remote sensing reflectance at 613nm</description>
+<type>float32</type>
+<validExpression>(Rrs_613 > -0.01 and Rrs_613 &lt; 0.2 and Rrs_613 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>613.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_615</name>
+<expression>Rrs_615</expression>
+<description>Remote sensing reflectance at 615nm</description>
+<type>float32</type>
+<validExpression>(Rrs_615 > -0.01 and Rrs_615 &lt; 0.2 and Rrs_615 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>615.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_618</name>
+<expression>Rrs_618</expression>
+<description>Remote sensing reflectance at 618nm</description>
+<type>float32</type>
+<validExpression>(Rrs_618 > -0.01 and Rrs_618 &lt; 0.2 and Rrs_618 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>618.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_620</name>
+<expression>Rrs_620</expression>
+<description>Remote sensing reflectance at 620nm</description>
+<type>float32</type>
+<validExpression>(Rrs_620 > -0.01 and Rrs_620 &lt; 0.2 and Rrs_620 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>620.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_623</name>
+<expression>Rrs_623</expression>
+<description>Remote sensing reflectance at 623nm</description>
+<type>float32</type>
+<validExpression>(Rrs_623 > -0.01 and Rrs_623 &lt; 0.2 and Rrs_623 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>623.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_625</name>
+<expression>Rrs_625</expression>
+<description>Remote sensing reflectance at 625nm</description>
+<type>float32</type>
+<validExpression>(Rrs_625 > -0.01 and Rrs_625 &lt; 0.2 and Rrs_625 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>625.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_627</name>
+<expression>Rrs_627</expression>
+<description>Remote sensing reflectance at 627nm</description>
+<type>float32</type>
+<validExpression>(Rrs_627 > -0.01 and Rrs_627 &lt; 0.2 and Rrs_627 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>627.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_630</name>
+<expression>Rrs_630</expression>
+<description>Remote sensing reflectance at 630nm</description>
+<type>float32</type>
+<validExpression>(Rrs_630 > -0.01 and Rrs_630 &lt; 0.2 and Rrs_630 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>630.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_632</name>
+<expression>Rrs_632</expression>
+<description>Remote sensing reflectance at 632nm</description>
+<type>float32</type>
+<validExpression>(Rrs_632 > -0.01 and Rrs_632 &lt; 0.2 and Rrs_632 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>632.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_635</name>
+<expression>Rrs_635</expression>
+<description>Remote sensing reflectance at 635nm</description>
+<type>float32</type>
+<validExpression>(Rrs_635 > -0.01 and Rrs_635 &lt; 0.2 and Rrs_635 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>635.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_637</name>
+<expression>Rrs_637</expression>
+<description>Remote sensing reflectance at 637nm</description>
+<type>float32</type>
+<validExpression>(Rrs_637 > -0.01 and Rrs_637 &lt; 0.2 and Rrs_637 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>637.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_640</name>
+<expression>Rrs_640</expression>
+<description>Remote sensing reflectance at 640nm</description>
+<type>float32</type>
+<validExpression>(Rrs_640 > -0.01 and Rrs_640 &lt; 0.2 and Rrs_640 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>640.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_641</name>
+<expression>Rrs_641</expression>
+<description>Remote sensing reflectance at 641nm</description>
+<type>float32</type>
+<validExpression>(Rrs_641 > -0.01 and Rrs_641 &lt; 0.2 and Rrs_641 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>641.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_642</name>
+<expression>Rrs_642</expression>
+<description>Remote sensing reflectance at 642nm</description>
+<type>float32</type>
+<validExpression>(Rrs_642 > -0.01 and Rrs_642 &lt; 0.2 and Rrs_642 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>642.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_643</name>
+<expression>Rrs_643</expression>
+<description>Remote sensing reflectance at 643nm</description>
+<type>float32</type>
+<validExpression>(Rrs_643 > -0.01 and Rrs_643 &lt; 0.2 and Rrs_643 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>643.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_645</name>
+<expression>Rrs_645</expression>
+<description>Remote sensing reflectance at 645nm</description>
+<type>float32</type>
+<validExpression>(Rrs_645 > -0.01 and Rrs_645 &lt; 0.2 and Rrs_645 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>645.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_646</name>
+<expression>Rrs_646</expression>
+<description>Remote sensing reflectance at 646nm</description>
+<type>float32</type>
+<validExpression>(Rrs_646 > -0.01 and Rrs_646 &lt; 0.2 and Rrs_646 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>646.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_647</name>
+<expression>Rrs_647</expression>
+<description>Remote sensing reflectance at 647nm</description>
+<type>float32</type>
+<validExpression>(Rrs_647 > -0.01 and Rrs_647 &lt; 0.2 and Rrs_647 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>647.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_648</name>
+<expression>Rrs_648</expression>
+<description>Remote sensing reflectance at 648nm</description>
+<type>float32</type>
+<validExpression>(Rrs_648 > -0.01 and Rrs_648 &lt; 0.2 and Rrs_648 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>648.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_650</name>
+<expression>Rrs_650</expression>
+<description>Remote sensing reflectance at 650nm</description>
+<type>float32</type>
+<validExpression>(Rrs_650 > -0.01 and Rrs_650 &lt; 0.2 and Rrs_650 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>650.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_651</name>
+<expression>Rrs_651</expression>
+<description>Remote sensing reflectance at 651nm</description>
+<type>float32</type>
+<validExpression>(Rrs_651 > -0.01 and Rrs_651 &lt; 0.2 and Rrs_651 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>651.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_652</name>
+<expression>Rrs_652</expression>
+<description>Remote sensing reflectance at 652nm</description>
+<type>float32</type>
+<validExpression>(Rrs_652 > -0.01 and Rrs_652 &lt; 0.2 and Rrs_652 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>652.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_653</name>
+<expression>Rrs_653</expression>
+<description>Remote sensing reflectance at 653nm</description>
+<type>float32</type>
+<validExpression>(Rrs_653 > -0.01 and Rrs_653 &lt; 0.2 and Rrs_653 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>653.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_655</name>
+<expression>Rrs_655</expression>
+<description>Remote sensing reflectance at 655nm</description>
+<type>float32</type>
+<validExpression>(Rrs_655 > -0.01 and Rrs_655 &lt; 0.2 and Rrs_655 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>655.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_656</name>
+<expression>Rrs_656</expression>
+<description>Remote sensing reflectance at 656nm</description>
+<type>float32</type>
+<validExpression>(Rrs_656 > -0.01 and Rrs_656 &lt; 0.2 and Rrs_656 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>656.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_657</name>
+<expression>Rrs_657</expression>
+<description>Remote sensing reflectance at 657nm</description>
+<type>float32</type>
+<validExpression>(Rrs_657 > -0.01 and Rrs_657 &lt; 0.2 and Rrs_657 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>657.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_658</name>
+<expression>Rrs_658</expression>
+<description>Remote sensing reflectance at 658nm</description>
+<type>float32</type>
+<validExpression>(Rrs_658 > -0.01 and Rrs_658 &lt; 0.2 and Rrs_658 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>658.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_660</name>
+<expression>Rrs_660</expression>
+<description>Remote sensing reflectance at 660nm</description>
+<type>float32</type>
+<validExpression>(Rrs_660 > -0.01 and Rrs_660 &lt; 0.2 and Rrs_660 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>660.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_661</name>
+<expression>Rrs_661</expression>
+<description>Remote sensing reflectance at 661nm</description>
+<type>float32</type>
+<validExpression>(Rrs_661 > -0.01 and Rrs_661 &lt; 0.2 and Rrs_661 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>661.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_662</name>
+<expression>Rrs_662</expression>
+<description>Remote sensing reflectance at 662nm</description>
+<type>float32</type>
+<validExpression>(Rrs_662 > -0.01 and Rrs_662 &lt; 0.2 and Rrs_662 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>662.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_663</name>
+<expression>Rrs_663</expression>
+<description>Remote sensing reflectance at 663nm</description>
+<type>float32</type>
+<validExpression>(Rrs_663 > -0.01 and Rrs_663 &lt; 0.2 and Rrs_663 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>663.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_665</name>
+<expression>Rrs_665</expression>
+<description>Remote sensing reflectance at 665nm</description>
+<type>float32</type>
+<validExpression>(Rrs_665 > -0.01 and Rrs_665 &lt; 0.2 and Rrs_665 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>665.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_666</name>
+<expression>Rrs_666</expression>
+<description>Remote sensing reflectance at 666nm</description>
+<type>float32</type>
+<validExpression>(Rrs_666 > -0.01 and Rrs_666 &lt; 0.2 and Rrs_666 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>666.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_667</name>
+<expression>Rrs_667</expression>
+<description>Remote sensing reflectance at 667nm</description>
+<type>float32</type>
+<validExpression>(Rrs_667 > -0.01 and Rrs_667 &lt; 0.2 and Rrs_667 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>667.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_668</name>
+<expression>Rrs_668</expression>
+<description>Remote sensing reflectance at 668nm</description>
+<type>float32</type>
+<validExpression>(Rrs_668 > -0.01 and Rrs_668 &lt; 0.2 and Rrs_668 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>668.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_670</name>
+<expression>Rrs_670</expression>
+<description>Remote sensing reflectance at 670nm</description>
+<type>float32</type>
+<validExpression>(Rrs_670 > -0.01 and Rrs_670 &lt; 0.2 and Rrs_670 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>670.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_671</name>
+<expression>Rrs_671</expression>
+<description>Remote sensing reflectance at 671nm</description>
+<type>float32</type>
+<validExpression>(Rrs_671 > -0.01 and Rrs_671 &lt; 0.2 and Rrs_671 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>671.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_672</name>
+<expression>Rrs_672</expression>
+<description>Remote sensing reflectance at 672nm</description>
+<type>float32</type>
+<validExpression>(Rrs_672 > -0.01 and Rrs_672 &lt; 0.2 and Rrs_672 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>672.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_673</name>
+<expression>Rrs_673</expression>
+<description>Remote sensing reflectance at 673nm</description>
+<type>float32</type>
+<validExpression>(Rrs_673 > -0.01 and Rrs_673 &lt; 0.2 and Rrs_673 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>673.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_675</name>
+<expression>Rrs_675</expression>
+<description>Remote sensing reflectance at 675nm</description>
+<type>float32</type>
+<validExpression>(Rrs_675 > -0.01 and Rrs_675 &lt; 0.2 and Rrs_675 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>675.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_676</name>
+<expression>Rrs_676</expression>
+<description>Remote sensing reflectance at 676nm</description>
+<type>float32</type>
+<validExpression>(Rrs_676 > -0.01 and Rrs_676 &lt; 0.2 and Rrs_676 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>676.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_677</name>
+<expression>Rrs_677</expression>
+<description>Remote sensing reflectance at 677nm</description>
+<type>float32</type>
+<validExpression>(Rrs_677 > -0.01 and Rrs_677 &lt; 0.2 and Rrs_677 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>677.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_678</name>
+<expression>Rrs_678</expression>
+<description>Remote sensing reflectance at 678nm</description>
+<type>float32</type>
+<validExpression>(Rrs_678 > -0.01 and Rrs_678 &lt; 0.2 and Rrs_678 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>678.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_679</name>
+<expression>Rrs_679</expression>
+<description>Remote sensing reflectance at 679nm</description>
+<type>float32</type>
+<validExpression>(Rrs_679 > -0.01 and Rrs_679 &lt; 0.2 and Rrs_679 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>679.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_681</name>
+<expression>Rrs_681</expression>
+<description>Remote sensing reflectance at 681nm</description>
+<type>float32</type>
+<validExpression>(Rrs_681 > -0.01 and Rrs_681 &lt; 0.2 and Rrs_681 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>681.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_682</name>
+<expression>Rrs_682</expression>
+<description>Remote sensing reflectance at 682nm</description>
+<type>float32</type>
+<validExpression>(Rrs_682 > -0.01 and Rrs_682 &lt; 0.2 and Rrs_682 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>682.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_683</name>
+<expression>Rrs_683</expression>
+<description>Remote sensing reflectance at 683nm</description>
+<type>float32</type>
+<validExpression>(Rrs_683 > -0.01 and Rrs_683 &lt; 0.2 and Rrs_683 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>683.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_684</name>
+<expression>Rrs_684</expression>
+<description>Remote sensing reflectance at 684nm</description>
+<type>float32</type>
+<validExpression>(Rrs_684 > -0.01 and Rrs_684 &lt; 0.2 and Rrs_684 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>684.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_686</name>
+<expression>Rrs_686</expression>
+<description>Remote sensing reflectance at 686nm</description>
+<type>float32</type>
+<validExpression>(Rrs_686 > -0.01 and Rrs_686 &lt; 0.2 and Rrs_686 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>686.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_687</name>
+<expression>Rrs_687</expression>
+<description>Remote sensing reflectance at 687nm</description>
+<type>float32</type>
+<validExpression>(Rrs_687 > -0.01 and Rrs_687 &lt; 0.2 and Rrs_687 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>687.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_688</name>
+<expression>Rrs_688</expression>
+<description>Remote sensing reflectance at 688nm</description>
+<type>float32</type>
+<validExpression>(Rrs_688 > -0.01 and Rrs_688 &lt; 0.2 and Rrs_688 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>688.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_689</name>
+<expression>Rrs_689</expression>
+<description>Remote sensing reflectance at 689nm</description>
+<type>float32</type>
+<validExpression>(Rrs_689 > -0.01 and Rrs_689 &lt; 0.2 and Rrs_689 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>689.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_691</name>
+<expression>Rrs_691</expression>
+<description>Remote sensing reflectance at 691nm</description>
+<type>float32</type>
+<validExpression>(Rrs_691 > -0.01 and Rrs_691 &lt; 0.2 and Rrs_691 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>691.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_693</name>
+<expression>Rrs_693</expression>
+<description>Remote sensing reflectance at 693nm</description>
+<type>float32</type>
+<validExpression>(Rrs_693 > -0.01 and Rrs_693 &lt; 0.2 and Rrs_693 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>693.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_694</name>
+<expression>Rrs_694</expression>
+<description>Remote sensing reflectance at 694nm</description>
+<type>float32</type>
+<validExpression>(Rrs_694 > -0.01 and Rrs_694 &lt; 0.2 and Rrs_694 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>694.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_696</name>
+<expression>Rrs_696</expression>
+<description>Remote sensing reflectance at 696nm</description>
+<type>float32</type>
+<validExpression>(Rrs_696 > -0.01 and Rrs_696 &lt; 0.2 and Rrs_696 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>696.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_697</name>
+<expression>Rrs_697</expression>
+<description>Remote sensing reflectance at 697nm</description>
+<type>float32</type>
+<validExpression>(Rrs_697 > -0.01 and Rrs_697 &lt; 0.2 and Rrs_697 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>697.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_698</name>
+<expression>Rrs_698</expression>
+<description>Remote sensing reflectance at 698nm</description>
+<type>float32</type>
+<validExpression>(Rrs_698 > -0.01 and Rrs_698 &lt; 0.2 and Rrs_698 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>698.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_699</name>
+<expression>Rrs_699</expression>
+<description>Remote sensing reflectance at 699nm</description>
+<type>float32</type>
+<validExpression>(Rrs_699 > -0.01 and Rrs_699 &lt; 0.2 and Rrs_699 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>699.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_701</name>
+<expression>Rrs_701</expression>
+<description>Remote sensing reflectance at 701nm</description>
+<type>float32</type>
+<validExpression>(Rrs_701 > -0.01 and Rrs_701 &lt; 0.2 and Rrs_701 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>701.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_702</name>
+<expression>Rrs_702</expression>
+<description>Remote sensing reflectance at 702nm</description>
+<type>float32</type>
+<validExpression>(Rrs_702 > -0.01 and Rrs_702 &lt; 0.2 and Rrs_702 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>702.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>Rrs_703</name>
+<expression>Rrs_703</expression>
+<description>Remote sensing reflectance at 703nm</description>
+<type>float32</type>
+<validExpression>(Rrs_703 > -0.01 and Rrs_703 &lt; 0.2 and Rrs_703 !=0)</validExpression>
+<noDataValue>NaN</noDataValue>
+<spectralWavelength>703.0</spectralWavelength>
+<unit>sr^-1</unit>
+</targetBand>
+<targetBand>
+<name>avw</name>
+<expression>avw</expression>
+<description>Apparent Visible Wavelength</description>
+<type>float32</type>
+<noDataValue>NaN</noDataValue>
+<unit>nm</unit>
+</targetBand>
+</targetBands>
+</parameters>
+</node>
+</graph>

@@ -1,4 +1,4 @@
-% EXTRACT_TS_FUNC_vDB_all.M
+    % EXTRACT_TS_FUNC_vDB_all.M
 % Written by Dan Otis, September, 2018
 % Updated September 2024
 % New version will import ROI from json files
@@ -35,8 +35,8 @@ function[dummy]=Extract_sat_1D_func_dbv24_RECENTonly(sensor,roi,roi_2,prod_class
 % Use 1/1/2024 as cutoff point
 
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24';
-eval(['path_json=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/loc_files/' roi_2 ''';'])
+path_main='~/DB_files/DB_v24';
+eval(['path_json=''~/DB_files/DB_v24/loc_files/' roi_2 ''';'])
 
 % Get ROI from json files
 eval(['flnms_tmp=struct2cell(dir(''' path_json '/*.geojson''));'])
@@ -56,9 +56,9 @@ end
 cd(path_main)
 
 % INPUT AND OUTPUT PATHS
-eval(['file_path=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L3_1D_' sensor '/' prod_class '/'';'])
+eval(['file_path=''/srv/pgs/rois2/' roi '/L3_1D_' sensor '/' prod_class '/'';'])
 % Put .mat files with extracted data in the "EXT_TS_MODA", then pull and write .csv to new directory
-eval(['path_out=''/srv/imars-objects/tpa_pgs/rois2/' roi '/EXT_TS_' sensor '/'';'])
+eval(['path_out=''/srv/pgs/rois2/' roi '/EXT_TS_' sensor '/'';'])
 
 eval(['filenames_tmp=struct2cell(dir(''' file_path '/*' prod_class '_1D.nc''));'])
 filenames_oc=filenames_tmp(1,:);

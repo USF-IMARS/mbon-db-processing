@@ -1,9 +1,10 @@
 
 clear
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/m_map');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/export_fig');
-addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24');
+addpath('~/MATLAB_files/');
+addpath('~/MATLAB_files/m_map');
+addpath('~/MATLAB_files/export_fig');
+addpath('~/MATLAB_files/jsonlab-2.0/jsonlab-2.0/');
+addpath('~/DB_files/DB_v24');
 
 % SEUS
 % ALL input is ONLY in the form of .geojson files

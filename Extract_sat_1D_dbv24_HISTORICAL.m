@@ -14,16 +14,16 @@
 % Output to .mat, then combine w/historical data and output as .csv
 
 clear 
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/');
-addpath('/srv/imars-objects/homes/dotis/DB_files/DB_v24');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/m_map');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/export_fig');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/jsonlab-2.0/jsonlab-2.0');
+addpath('~/MATLAB_files/');
+addpath('~/DB_files/DB_v24');
+addpath('~/MATLAB_files/m_map');
+addpath('~/MATLAB_files/export_fig');
+addpath('~/MATLAB_files/jsonlab-2.0/jsonlab-2.0');
 
 % % Test
 sensor='VSNPP';
-roi='seus';
-roi_2='SEUS';
+roi='gom';
+roi_2='GOM';
 prod_class='OC';
 prods={'chlor_a','Rrs_671','Kd_490'}; % VSNPP OC
 % prods={'sstn'}; % VSNPP SSTN
@@ -34,8 +34,8 @@ prods={'chlor_a','Rrs_671','Kd_490'}; % VSNPP OC
 % Use "Extract_sat_1D_func_dbv24_RECENTonly.m" for recent files
 
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24';
-eval(['path_json=''/srv/imars-objects/homes/dotis/DB_files/DB_v24/loc_files/' roi_2 ''';'])
+path_main='~/DB_files/DB_v24';
+eval(['path_json=''~/DB_files/DB_v24/loc_files/' roi_2 ''';'])
 
 % Get ROI from json files
 eval(['flnms_tmp=struct2cell(dir(''' path_json '/*.geojson''));'])
@@ -55,9 +55,9 @@ end
 cd(path_main)
 
 % INPUT AND OUTPUT PATHS
-eval(['file_path=''/srv/imars-objects/tpa_pgs/rois2/' roi '/L3_1D_' sensor '/' prod_class '/'';'])
+eval(['file_path=''/srv/pgs/rois2/' roi '/L3_1D_' sensor '/' prod_class '/'';'])
 % Put .mat files with extracted data in the "EXT_TS_MODA", then pull and write .csv to new directory
-eval(['path_out=''/srv/imars-objects/tpa_pgs/rois2/' roi '/EXT_TS_' sensor '/'';'])
+eval(['path_out=''/srv/pgs/rois2/' roi '/EXT_TS_' sensor '/'';'])
 
 eval(['filenames_tmp=struct2cell(dir(''' file_path '/*' prod_class '_1D.nc''));'])
 filenames_oc=filenames_tmp(1,:);

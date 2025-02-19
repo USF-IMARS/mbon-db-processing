@@ -1,0 +1,37 @@
+<graph id="S2WQ_GraphId">
+    <version>1.0</version>
+    <node id="RayCorrNode">
+      <operator>RayleighCorrection</operator>
+      <sources>
+        <sourceProduct>${sourceProduct}</sourceProduct>
+      </sources>
+      <parameters>
+        <sourceBandNames>Oa08_radiance,Oa09_radiance,Oa10_radiance,Oa11_radiance,Oa12_radiance</sourceBandNames>
+        <computeTaur>0</computeTaur>
+        <computeRBrr>1</computeRBrr>
+        <computeRtoaNg>0</computeRtoaNg>
+        <computeRtoa>0</computeRtoa>
+        <addAirMass>0</addAirMass>
+        <s2MsiTargetResolution>20</s2MsiTargetResolution>
+        <s2MsiSeaLevelPressure>1013.25</s2MsiSeaLevelPressure>
+        <s2MsiOzone>300.0</s2MsiOzone>
+      </parameters>
+    </node>
+    <node id="FLH_Node">
+    <operator>FlhMci</operator>
+    	<sources>
+           <sourceProduct>RayCorrNode</sourceProduct>
+        </sources>
+        <parameters>
+        <lowerBaselineBandName>rBRR_11</lowerBaselineBandName>
+        <upperBaselineBandName>rBRR_09</upperBaselineBandName>
+        <signalBandName>rBRR_10</signalBandName>
+        <lineHeightBandName>FLH</lineHeightBandName>
+        <slope>1</slope>
+        <slopeBandName>FLH_slope</slopeBandName>
+        <cloudCorrectionFactor>1.005</cloudCorrectionFactor>
+        <invalidFlhMciValue>NaN</invalidFlhMciValue>
+      </parameters>
+    </node>
+</graph>
+

@@ -6,14 +6,14 @@
 
 clear
 
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/m_map');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/export_fig');
+addpath('~/MATLAB_files/');
+addpath('~/MATLAB_files/m_map');
+addpath('~/MATLAB_files/export_fig');
 
 % Set directories (use server)
-path_main = '/srv/imars-objects/homes/dotis/DB_files/DB_v24/';
-file_path = '/srv/imars-objects/tpa_pgs/rois2/seus/USGS_temp/';
-path_out='/srv/imars-objects/tpa_pgs/rois2/seus/csv_ts_data/data/';
+path_main = '~/DB_files/DB_v24/';
+file_path = '/srv/pgs/rois2/seus/USGS_temp/';
+path_out='/srv/pgs/rois2/seus/csv_ts_data/data/';
 
 % Set years for start and end of climatologies
 yr_mac_st=2013;

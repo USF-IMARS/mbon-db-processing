@@ -1,0 +1,33 @@
+<graph id="S2WQ_GraphId">
+    <version>1.0</version>
+    <node id="RadReflNode">
+      <operator>Rad2Refl</operator>
+      <sources>
+        <source>${sourceProduct}</source>
+      </sources>
+      <parameters>
+        <sensor>OLCI</sensor>
+        <conversionMode>RAD_TO_REFL</conversionMode>
+        <copyTiePointGrids>0</copyTiePointGrids>
+        <copyFlagBandsAndMasks>1</copyFlagBandsAndMasks>
+        <copyNonSpectralBands>0</copyNonSpectralBands>
+      </parameters>
+    </node>
+    <node id="FLH_Node">
+    <operator>FlhMci</operator>
+    	<sources>
+           <sourceProduct>RadReflNode</sourceProduct>
+        </sources>
+        <parameters>
+        <lowerBaselineBandName>Oa11_reflectance</lowerBaselineBandName>
+        <upperBaselineBandName>Oa08_reflectance</upperBaselineBandName>
+        <signalBandName>Oa10_reflectance</signalBandName>
+        <lineHeightBandName>FLH</lineHeightBandName>
+        <slope>1</slope>
+        <slopeBandName>FLH_slope</slopeBandName>
+        <cloudCorrectionFactor>1.005</cloudCorrectionFactor>
+        <invalidFlhMciValue>NaN</invalidFlhMciValue>
+      </parameters>
+    </node>
+</graph>
+

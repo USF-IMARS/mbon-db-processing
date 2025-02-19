@@ -5,14 +5,14 @@
 
 clear
 
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/m_map');
-addpath('/srv/imars-objects/homes/dotis/MATLAB_files/export_fig');
+addpath('~/MATLAB_files/');
+addpath('~/MATLAB_files/m_map');
+addpath('~/MATLAB_files/export_fig');
 
 % Set directories (use server)
-path_main = '/srv/imars-objects/homes/dotis/DB_files/DB_v24';
-file_path = '/srv/imars-objects/tpa_pgs/rois2/gom/USGS_temp/';
-path_out='/srv/imars-objects/tpa_pgs/rois2/gom/csv_ts_data/data/';
+path_main = '~/DB_files/DB_v24';
+file_path = '/srv/pgs/rois2/gom/USGS_temp/';
+path_out='/srv/pgs/rois2/gom/csv_ts_data/data/';
 
 % Texas Rivers and the Mississippi
 short_name={'Sabine','Brazos','Colorado','Trinity','Neches','Miss'}; 

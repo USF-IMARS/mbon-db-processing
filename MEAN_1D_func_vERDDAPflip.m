@@ -6,10 +6,10 @@
 
 % Test
 clear
-addpath('/home1/dotis/MATLAB_files/');
-addpath('/home1/dotis/MATLAB_files/m_map');
-addpath('/home1/dotis/MATLAB_files/export_fig');
-addpath('/home1/dotis/DB_files/DB_v2');
+addpath('~/MATLAB_files/');
+addpath('~/MATLAB_files/m_map');
+addpath('~/MATLAB_files/export_fig');
+addpath('~/DB_files/DB_v2');
 
 % Set params
 sensor='VSNPP';
@@ -64,11 +64,11 @@ units=units_sst4;
 end
 
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/home1/dotis/DB_files/DB_v23/';
+path_main='~/DB_files/DB_v24/';
 
 % INPUT AND OUTPUT PATHS
-eval(['file_path=''/srv/imars-objects/tpa_pgs/rois/' roi '/L3_1D_' sensor '/' prod_class '/'';'])
-eval(['path_out=''/srv/imars-objects/tpa_pgs/rois/' roi '/MEAN_1D_' sensor '/' prod_class '/'';'])
+eval(['file_path=''/srv/pgs/rois/' roi '/L3_1D_' sensor '/' prod_class '/'';'])
+eval(['path_out=''/srv/pgs/rois/' roi '/MEAN_1D_' sensor '/' prod_class '/'';'])
 % eval(['path_geotiff=''/srv/imars-objects/tpa_pgs/rois/' roi '/TIFF_out_' sensor '/' prod_class '/'';'])
 
 % Define input files for each product type
@@ -148,10 +148,10 @@ for p=1:length(prods)
 
 % Load climatology (2003-2019)
 if strcmp(sensor,'MODA')==1
-eval(['load ''/home1/dotis/DB_files/DB_v2/CLIM_files/A2003_2019_7D_CLIM_' roi_2 '_' prods{p} '_noSLm.mat'';'])
+eval(['load ''~/DB_files/DB_v2/CLIM_files/A2003_2019_7D_CLIM_' roi_2 '_' prods{p} '_noSLm.mat'';'])
 end
 if strcmp(sensor,'VSNPP')==1
-eval(['load ''/home1/dotis/DB_files/DB_v2/CLIM_files/V2013_2019_7D_CLIM_' roi_2 '_' prods{p} '_noSLm.mat'';'])
+eval(['load ''~/DB_files/DB_v2/CLIM_files/V2013_2019_7D_CLIM_' roi_2 '_' prods{p} '_noSLm.mat'';'])
 end
 % Loop through images in bin
 cd(file_path)

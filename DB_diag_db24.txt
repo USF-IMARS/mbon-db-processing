@@ -1,0 +1,48 @@
+#/bin/bash
+# L2
+echo L2 subscriptions GOM
+basename $(ls -t /srv/pgs/rois2/gom/L2_MODA_sub/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/gom/L2_VSNPP_sub/*.nc | head -n 1)
+
+echo L2 subscriptions SEUS
+basename $(ls -t /srv/pgs/rois2/seus/L2_MODA_sub/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/seus/L2_VSNPP_sub/*.nc | head -n 1)
+
+# L3_1D
+echo L3_1D files GOM
+basename $(ls -t /srv/pgs/rois2/gom/L3_1D_VSNPP/OC/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/gom/L3_1D_VSNPP/SSTN/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/gom/L3_1D_MODA/OC/*.nc | head -n 1)
+
+echo L3_1D files SEUS
+basename $(ls -t /srv/pgs/rois2/seus/L3_1D_VSNPP/OC/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/seus/L3_1D_VSNPP/SSTN/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/seus/L3_1D_MODA/OC/*.nc | head -n 1)
+
+# 7D MEAN 
+echo MEAN_7D GOM
+basename $(ls -t /srv/pgs/rois2/gom/MEAN_7D_VSNPP/OC/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/gom/MEAN_7D_VSNPP/SSTN/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/gom/MEAN_7D_MODA/OC/*.nc | head -n 1)
+
+echo MEAN_7D_SEUS
+basename $(ls -t /srv/pgs/rois2/seus/MEAN_7D_VSNPP/OC/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/seus/MEAN_7D_VSNPP/SSTN/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/seus/MEAN_7D_MODA/OC/*.nc | head -n 1)
+
+# 1D MEAN (florida and nwgom) - OC only
+echo MEAN_1D_FL
+basename $(ls -t /srv/pgs/rois2/florida/MEAN_1D_VSNPP/OC/*.nc | head -n 1)
+basename $(ls -t /srv/pgs/rois2/florida/MEAN_1D_MODA/OC/*.nc | head -n 1)
+echo MEAN_1D_NWGOM
+basename $(ls -t /srv/pgs/rois2/nwgom/MEAN_1D_VSNPP/OC/*.nc | head -n 1)
+
+# EXTRACTED DATA AND CSV FILES
+echo GOM csv files data
+ls -l /srv/pgs/rois2/gom/csv_ts_data/data/Bob_Allen*.csv
+ls -l /srv/pgs/rois2/gom/csv_ts_data/data/GOM_chlor_a_TS_MODA_daily_FKNMS.csv
+ls -l /srv/pgs/rois2/gom/csv_ts_data/data/USGS_disch_FWCdb_EFL.csv
+
+echo SEUS csv files data
+ls -l /srv/pgs/rois2/seus/csv_ts_data/data/USGS_gh_AltamahaRv_SEUSdb.csv
+

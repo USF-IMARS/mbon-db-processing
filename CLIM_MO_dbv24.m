@@ -11,8 +11,8 @@ addpath('~/MATLAB_files/');
 addpath('~/DB_files/DB_v24');
 
 % Need to add "sensor" field here
-sensor='VSNPP';
-prod_class='SSTN';
+sensor='MODA';
+prod_class='OC';
 % roi='GOM'; dirs='gom'; roi_desc='Gulf of Mexico (GOM)';
 roi='SEUS'; dirs='seus'; roi_desc='Southeastern US (SEUS)';
 
@@ -20,12 +20,12 @@ roi='SEUS'; dirs='seus'; roi_desc='Southeastern US (SEUS)';
 % prod_oc={'chlor_a','Rrs_671','Kd_490'};
 % units_oc={'mg m^-3','sr^-1','m^-1'};
 % VSNPP SST/SSTN
-prod_sstn={'sstn'};
-units_sstn={'DegC'};
+% prod_sstn={'sstn'};
+% units_sstn={'DegC'};
 
 % MODA OC
-% prod_oc={'chlor_a','Rrs_667','ABI','Kd_490'};
-% units_oc={'mg m^-3','sr^-1','W m^-2 um^-1 sr^-1','m^-1'};
+prod_oc={'chlor_a','Rrs_667','ABI','Kd_490'};
+units_oc={'mg m^-3','sr^-1','W m^-2 um^-1 sr^-1','m^-1'};
 % MODA SST/SST4
 % prod_sst={'sst'};
 % units_sst={'DegC'};
@@ -78,19 +78,7 @@ len_flnms=length(flnms_str(1,:));
 num_files=size(flnms_str,1);
 
 % Define weekly (7-day index)
-start_ind=(1:7:365)';
-end_ind=(7:7:365+6)';
-ind_7D=cat(2,start_ind,end_ind);
-ind_7D(53,:)=[];
-ind_7D(52,2)=366;
-bins_peryr=52;
-
-% Or, use an 8D interval (MTK and MBON S-scapes)
-% start_8d=(1:8:365)';
-% end_8d=(8:8:365+7)';
-% ind_8d=cat(2,start_8d,end_8d);
-% ind_8d(46,2)=366;
-% bins_peryr=46;
+bins_peryr=12;
 
 %%%% PRODUCT LOOP %%%%
 for p=1:length(prods) 
@@ -115,20 +103,21 @@ numfiles=size(flnms_str,1);
 mac_tmp=(yrs_img >= yr_start & yrs_img <=yr_end);
 img_doy_trim=doy_img(mac_tmp);
 flnms_trim=flnms_str(mac_tmp,:);
+mos_trim=str2num(flnms_trim(:,6:7));
 
 % Loop on 7-day intervals using info from filenames
-num_bins=num_years*bins_peryr;
-mac_bin_ind=zeros(bins_peryr,120); 
+% num_bins=num_years*bins_peryr;
+% mac_bin_ind=zeros(bins_peryr,120); 
 
 % Find indeces of images in each 7d bin 
 % Omit loop on years here for MAC
 j=1;
 for i=1:bins_peryr
-img_tmp=find(img_doy_trim >= ind_7D(i,1) & img_doy_trim <= ind_7D(i,2));  
+img_tmp=find(mos_trim == i);  
 img_tmp2=length(img_tmp);
 mac_bin_ind(j,1:img_tmp2)=img_tmp;
-outnm_startday(j,:) = sprintf('%03d',ind_7D(i,1));
-outnm_endday(j,:) = sprintf('%03d',ind_7D(i,2));
+outnm_startday(j,:) = sprintf('%02d',i);
+outnm_endday(j,:) = sprintf('%02d',i);
 j=j+1;
 end % j  
 
@@ -199,10 +188,10 @@ end
 if strcmp(sensor,'VSNPP')==1
 prefix='V';
 end
-eval(['save ' prefix '' num2str(yr_start) '_' num2str(yr_end) '_7D_CLIM_' roi '_' prods{p} '_SLm.mat ' prods{p} '_clim_stack'])
+eval(['save ' prefix '' num2str(yr_start) '_' num2str(yr_end) '_MO_CLIM_' roi '_' prods{p} '_SLm.mat ' prods{p} '_clim_stack'])
 
 % Output as a single .nc file with bands for each 7D climatology bin
-eval(['out_file = ''' prefix '' num2str(yr_start) '_' num2str(yr_end) '_7D_CLIM_' roi '_' prods{p} '_SLm.nc'''])
+eval(['out_file = ''' prefix '' num2str(yr_start) '_' num2str(yr_end) '_MO_CLIM_' roi '_' prods{p} '_SLm.nc'''])
 ncid_out = netcdf.create(out_file,'NETCDF4');
 % Define Constant for Global Attibutes
 NC_GLOBAL = netcdf.getConstant('NC_GLOBAL');
@@ -214,7 +203,7 @@ dimid_x = netcdf.defDim(ncid_out,'img_x',xsz);
 netcdf.putAtt(ncid_out,NC_GLOBAL,'Region',roi_desc)
 netcdf.putAtt(ncid_out,NC_GLOBAL,'Product',prods{p})
 netcdf.putAtt(ncid_out,NC_GLOBAL,'Units',units{p})
-netcdf.putAtt(ncid_out,NC_GLOBAL,'Time interval','7-Day Climatology')
+netcdf.putAtt(ncid_out,NC_GLOBAL,'Time interval','Monthly Climatology')
 if strcmp(sensor,'MODA')==1
 netcdf.putAtt(ncid_out,NC_GLOBAL,'Sensor','MODIS-Aqua')
 end
@@ -223,7 +212,7 @@ netcdf.putAtt(ncid_out,NC_GLOBAL,'Sensor','VIIRS-SNPP')
 end
 netcdf.putAtt(ncid_out,NC_GLOBAL,'Original Image Source','NASA Ocean Biology Processing Group')
 netcdf.putAtt(ncid_out,NC_GLOBAL,'Original Image Format','Level-2(NetCDF)')
-netcdf.putAtt(ncid_out,NC_GLOBAL,'Processing version','r2022')
+netcdf.putAtt(ncid_out,NC_GLOBAL,'Processing version','r2022.0.1')
 netcdf.putAtt(ncid_out,NC_GLOBAL,'Ocean color masks based on L2_flags','LAND,CLDICE,HIGLINT')
 netcdf.putAtt(ncid_out,NC_GLOBAL,'Projection','Equidistant Cylindrical')
 eval(['netcdf.putAtt(ncid_out,NC_GLOBAL,''Image size'',''' num2str(ysz) ' pixels(N-S) x ' num2str(xsz) ' pixels(E-W)'');']) 
@@ -237,7 +226,7 @@ eval(['netcdf.putAtt(ncid_out,NC_GLOBAL,''Climatology end date'',''' num2str(yr_
 % Write variables into file (use loop to create NetCDF bands for each week)
 for l=1:bins_peryr
 % Define variables
-eval(['prod_clim_varid' num2str(l) ' = netcdf.defVar(ncid_out,''' prods{p} '_climatology_week' num2str(l) ''',''NC_DOUBLE'',[dimid_x dimid_y]);'])
+eval(['prod_clim_varid' num2str(l) ' = netcdf.defVar(ncid_out,''' prods{p} '_climatology_month' num2str(l) ''',''NC_DOUBLE'',[dimid_x dimid_y]);'])
 eval(['tmp_out=' prods{p} '_clim_stack(:,:,l)'';']) 
 eval(['netcdf.putVar(ncid_out,prod_clim_varid' num2str(l) ',tmp_out)'])
 end % l (bins_peryr)

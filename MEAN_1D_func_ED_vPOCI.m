@@ -64,11 +64,11 @@ units=units_rrs;
 end
 
 % Set filepaths, lat/lon limits, and x/y sizes
-path_main='/srv/imars-objects/homes/dotis/DB_files/DB_v24/';
+path_main='~/DB_files/DB_v24/';
 
 % INPUT AND OUTPUT PATHS
-eval(['file_path=''/srv/imars-objects/tpa_pgs/rois2/' roia '/L3_1D_' sensor '/' prod_class '/'';'])
-eval(['path_out=''/srv/imars-objects/tpa_pgs/rois2/' roia '/MEAN_1D_' sensor '/' prod_class '/'';'])
+eval(['file_path=''/srv/pgs/rois2/' roia '/L3_1D_' sensor '/' prod_class '/'';'])
+eval(['path_out=''/srv/pgs/rois2/' roia '/MEAN_1D_' sensor '/' prod_class '/'';'])
 % eval(['path_geotiff=''/srv/imars-objects/tpa_pgs/rois/' roi '/TIFF_out_' sensor '/' prod_class '/'';'])
 
 % Define input files for each product type
